@@ -8,6 +8,7 @@
 #include <iostream>
 #include <iomanip> //DEBUG
 #include <queue>
+#include <algorithm>
 
 ////////////////////////////////////////////////////////////////////////////////
 //STATIC DATA
@@ -76,31 +77,31 @@ struct weaponComponent
     switch(key)
     {
       case(weaponComponent::TRIGGER):
-        os << "TRIGGER";
+        os << "Trigger";
         break;
       case(weaponComponent::HAMMER):
-        os << "HAMMER";
+        os << "Hammer";
         break;
       case(weaponComponent::ACTION):
-        os << "ACTION";
+        os << "Action";
         break;
       case(weaponComponent::FEEDPORT):
-        os << "FEEDPORT";
+        os << "Feedport";
         break;
       case(weaponComponent::BOLT):
-        os << "BOLT";
+        os << "Bolt";
         break;
       case(weaponComponent::CHAMBER):
-        os << "CHAMBER";
+        os << "Chamber";
         break;
       case(weaponComponent::BARREL):
-        os << "BARREL";
+        os << "Barrel";
         break;
       case(weaponComponent::MUZZLE):
-        os << "MUZZLE";
+        os << "Muzzle";
         break;
       case(weaponComponent::MAGIZINE):
-        os << "MAGIZINE";
+        os << "Magizine";
         break;
       default:
         os << "UNKNOWN";
@@ -110,15 +111,15 @@ struct weaponComponent
     return os;
   }
 
-  weaponComponent(std::string name_, WEAP_COMPS_ENUMS wcType_)
-  : name(name_), wcType(wcType_)
+  weaponComponent(WEAP_COMPS_ENUMS wcType_)
+  : wcType(wcType_)
   {}
 
   virtual ~weaponComponent(){}
 
   friend struct weaponSystem;
   struct weaponSystem* parent = nullptr;
-  std::string name;
+  //std::string name;
   //float curPos;                  //SUSPENDED
   //float curRateOfChange;         //SUSPENDED
   //void activateComponent(float); //SUSPENDED //value to set for curPos
@@ -127,12 +128,42 @@ struct weaponComponent
   unsigned curStage = 0;
   WEAP_COMPS_ENUMS wcType;
 
-  weaponComponent* compToActivate      = nullptr;
+  WEAP_COMPS_ENUMS wcTypeToActivate    = weaponComponent::COUNT;
   triggerDirection conditionToActivate = TD_EITHER;
 
-  weaponComponent* compToReady      = nullptr;
+  WEAP_COMPS_ENUMS wcTypeToReady    = weaponComponent::COUNT;
   triggerDirection conditionToReady = TD_EITHER;
 
+  void setCompToActivate(WEAP_COMPS_ENUMS wcTypeToAct,
+                         triggerDirection trigDirCondition)
+  {
+    std::cout
+    << std::left << std::setw(7)
+    << wcType << " is setting: "
+    << std::left << std::setw(7)
+    << wcTypeToAct
+    << " as component to ACTIVATE" << std::endl;
+
+    wcTypeToActivate    = wcTypeToAct;
+    conditionToActivate = trigDirCondition;
+  }
+
+  void setCompToReady(WEAP_COMPS_ENUMS wcTypeToRdy,
+                      triggerDirection trigDirCondition)
+  {
+    std::cout
+    << std::left << std::setw(7)
+    << wcType << " is setting: "
+    << std::left << std::setw(7)
+    << wcTypeToRdy
+    << " as component to READY" << std::endl;
+
+    wcTypeToReady    = wcTypeToRdy;
+    conditionToReady = trigDirCondition;
+  }
+
+  //DEPRECATING
+#if 0
   //param compToActivate_:  component to activate
   //param trigDirCondition: state component needs to be in for use
   void CompToActivate(weaponComponent* compToActivate_,
@@ -140,9 +171,9 @@ struct weaponComponent
   {
     std::cout
     << std::left << std::setw(7)
-    << name << " is setting: "
+    << wcType << " is setting: "
     << std::left << std::setw(7)
-    << compToActivate_->name
+    << compToActivate_->wcType
     << " as component to ACTIVATE" << std::endl;
 
     compToActivate      = compToActivate_;
@@ -154,14 +185,15 @@ struct weaponComponent
   {
     std::cout
     << std::left << std::setw(7)
-    << name << " is setting: "
+    << wcType << " is setting: "
     << std::left << std::setw(7)
-    << compToReady_->name
+    << compToReady_->wcType
     << " as component to READY" << std::endl;
 
     compToReady      = compToReady_;
     conditionToReady = trigDirCondition;
   }
+#endif
 
   bool IsReady()
   {
@@ -178,7 +210,7 @@ struct weaponComponent
     std::cout
     << "Name: "
     << std::left << std::setw(8)
-    << name
+    << wcType
     << " \\\\ Status: ";
 
     if(IsReady())
@@ -191,14 +223,14 @@ struct weaponComponent
     }
     else
     {
-      std::cout << "SOMEWHERE IN MIDDLE" << std::endl;
+      std::cout << "SOMEWHERE IN-BETWEEN" << std::endl;
     }
   }
 
 private:
   bool activateComponent()
   {
-    std::cout << "Activating " << name << ":" << std::endl;
+    std::cout << "Activating " << wcType << ":" << std::endl;
 
     if(curStage == 0)
     {
@@ -228,7 +260,7 @@ private:
 
   bool readyComponent()
   {
-    std::cout << "Readying " << name << ":" << std::endl;
+    std::cout << "Readying " << wcType << ":" << std::endl;
 
     if(curStage == weaponStages.size() + 1)
     {
@@ -352,6 +384,7 @@ public:
   {
     bool countCycle = false;
 
+    //DEBUG
     {
       std::cout << "@Setting " << key << " to ";
 
@@ -362,33 +395,37 @@ public:
         std::cout << "READY" << std::endl;
     }
 
-    if(setCompQueue.empty() == false)
-    {
-      setCompQueue.push(std::make_pair(condition, key));
-      return;
-    }
+    //If queue is not empty, that means the queue is already processing info
+    bool QueueAlreadyProcessing = (setCompQueue.empty() == false);
 
     setCompQueue.push(std::make_pair(condition, key));
+
+    if(QueueAlreadyProcessing)
+    {
+      return;
+    }
 
     while(setCompQueue.empty() == false)
     {
       setCompInfo curComp = setCompQueue.front();
+      triggerDirection const & trigDir = curComp.first;
+      weaponComponent::WEAP_COMPS_ENUMS const & wce= curComp.second;
 
-      if(curComp.first == TD_READY)
+      if(trigDir == TD_READY)
       {
           //NOTE: Goal to distinguish between each completed cycle in auto fire
-        if(countCycle && curComp.second == weaponComponent::ACTION)
+        if(countCycle && wce == weaponComponent::ACTION)
         {
           std::cout << "Completed Round Cycle: "
           << ++roundCyclesFired << std::endl;
         }
 
-        readyComponent(curComp.second);
+        readyComponent(wce);
       }
-      else if(curComp.first == TD_ACTIVE)
+      else if(trigDir == TD_ACTIVE)
       {
           //NOTE: Goal to distinguish between each completed cycle in auto fire
-        if(curComp.second == weaponComponent::ACTION)
+        if(wce == weaponComponent::ACTION)
         {
           if(countCycle == false)
           {
@@ -399,7 +436,7 @@ public:
           << (roundCyclesFired + 1) << std::endl;
         }
 
-        activateComponent(curComp.second);
+        activateComponent(wce);
       }
 
       setCompQueue.pop();
@@ -445,20 +482,25 @@ public:
     {
       if(thisComp->activateComponent())
       {
-        weaponComponent* nextComp = weapComps[key]->compToActivate;
-
         std::cout
         << "***SUCCESS: "
-        << thisComp->name
+        << thisComp->wcType
         << " ACTIVATED"
         << std::endl;
+
+        weaponComponent* nextComp = nullptr;
+
+        if(weapComps[key]->wcTypeToActivate < weaponComponent::COUNT)
+        {
+          nextComp = weapComps[weapComps[key]->wcTypeToActivate];
+        }
 
         if(nextComp != nullptr)
         {
           std::cout 
-          << "**" << thisComp->name
+          << "**" << thisComp->wcType
           << " is set to activate "
-          << nextComp->name
+          << nextComp->wcType
           << std::endl;
 
           if(
@@ -474,7 +516,7 @@ public:
           else
           {
             std::cout
-            << nextComp->name
+            << nextComp->wcType
             << " did not satisfy condition to be activated"
             << std::endl;
 
@@ -498,7 +540,7 @@ public:
         else //DEBUG
         {
           //std::cout
-          //<< thisComp->name
+          //<< thisComp->wcType
           //<< " has no component to activate"
           //<< std::endl;
         }
@@ -509,7 +551,7 @@ public:
       {
         std::cout
         << "*NOTICE:  "
-        << thisComp->name
+        << thisComp->wcType
         << " HAS NOT ACTIVATED"
         << std::endl;
       }
@@ -526,20 +568,25 @@ public:
     {
       if(thisComp->readyComponent())
       {
-        weaponComponent* nextComp = weapComps[key]->compToReady;
-
         std::cout
         << "***SUCCESS: "
-        << thisComp->name
+        << thisComp->wcType
         << " READIED"
         << std::endl;
+
+        weaponComponent* nextComp = nullptr;
+
+        if(weapComps[key]->wcTypeToReady < weaponComponent::COUNT)
+        {
+          nextComp = weapComps[weapComps[key]->wcTypeToReady];
+        }
 
         if(nextComp != nullptr)
         {
           std::cout 
-          << "**" << thisComp->name
+          << "**" << thisComp->wcType
           << " is set to ready "
-          << nextComp->name
+          << nextComp->wcType
           << std::endl;
 
           if(
@@ -557,7 +604,7 @@ public:
             //DEBUG
             {
               std::cout
-              << nextComp->name
+              << nextComp->wcType
               << " did not satisfy condition to be readied"
               << std::endl;
 
@@ -584,7 +631,7 @@ public:
           //DEBUG
           {
             //std::cout
-            //<< thisComp->name
+            //<< thisComp->wcType
             //<< " has no component to ready"
             //<< std::endl;
           }
@@ -598,7 +645,7 @@ public:
         {
           std::cout
           << "*NOTICE:  "
-          << thisComp->name
+          << thisComp->wcType
           << " HAS NOT READIED"
           << std::endl;
         }
@@ -663,6 +710,7 @@ struct FireModes
     return firemodeToReturn;
   }
 
+  //TODO: Each firemode should have its own debug to dump all its info
   void debug()
   {
     std::cout << "*Current fire mode: "
@@ -731,8 +779,8 @@ static FireMode full("Full-Auto", 0, true, true);
 //that will affect the firemode of the weapComp_Action
 struct weapComp_Action : public weaponComponent
 {
-  weapComp_Action(std::string name_, WEAP_COMPS_ENUMS wcType_)
-  : weaponComponent(name_, wcType_)
+  weapComp_Action(WEAP_COMPS_ENUMS wcType_)
+  : weaponComponent(wcType_)
   {
     firemodes.firemodes.push_back(semi);
     firemodes.firemodes.push_back(burst3);
@@ -795,8 +843,8 @@ private:
 //Weapon Component that can contain a ws_round(s)
 struct weapComp_Round : public weaponComponent
 {
-  weapComp_Round(std::string name_, WEAP_COMPS_ENUMS wcType_)
-  : weaponComponent(name_, wcType_)
+  weapComp_Round(WEAP_COMPS_ENUMS wcType_)
+  : weaponComponent(wcType_)
   {}
 
   virtual ~weapComp_Round(){}
@@ -848,7 +896,7 @@ struct weapComp_Round : public weaponComponent
         std::cout
         << std::left << std::setw(26)
         << "*Round at source: "
-        << srce->name
+        << srce->wcType
         << std::endl;
       }
       else
@@ -856,7 +904,7 @@ struct weapComp_Round : public weaponComponent
         std::cout
         << std::left << std::setw(26)
         << "*No round at source: "
-        << srce->name
+        << srce->wcType
         << std::endl;
       }
 
@@ -865,7 +913,7 @@ struct weapComp_Round : public weaponComponent
         std::cout
         << std::left << std::setw(26)
         << "*Round already at destination: "
-        << dest->name
+        << dest->wcType
         << std::endl;
       }
       else
@@ -873,7 +921,7 @@ struct weapComp_Round : public weaponComponent
         std::cout
         << std::left << std::setw(26)
         << "*No round at destination: "
-        << dest->name
+        << dest->wcType
         << std::endl;
       }
     }
@@ -892,9 +940,9 @@ struct weapComp_Round : public weaponComponent
         std::cout
         << std::left << std::setw(26)
         << "*Transferring round: "
-        << srce->name
+        << srce->wcType
         << " -> "
-        << dest->name
+        << dest->wcType
         << std::endl;
 
         //USE std::move
@@ -928,7 +976,7 @@ struct weapComp_Round : public weaponComponent
         std::cout
         << std::left << std::setw(26)
         << "*Transferring round FROM: "
-        << source->name
+        << source->wcType
         << std::endl;
 
         //USE std::move
@@ -942,7 +990,7 @@ struct weapComp_Round : public weaponComponent
         std::cout
         << std::left << std::setw(26)
         << "*Round already at destination: "
-        << source->name
+        << source->wcType
         << std::endl;
       }
     }
@@ -957,7 +1005,7 @@ struct weapComp_Round : public weaponComponent
       std::cout
       << std::left << std::setw(26)
       << "*No round at source: "
-      << name
+      << wcType
       << std::endl;
     }
 
@@ -982,7 +1030,7 @@ struct weapComp_Round : public weaponComponent
         std::cout
         << std::left << std::setw(26)
         << "*Transferring round TO: "
-        << dest->name
+        << dest->wcType
         << std::endl;
 
         //USE std::move
@@ -996,7 +1044,7 @@ struct weapComp_Round : public weaponComponent
         std::cout
         << std::left << std::setw(26)
         << "*Round already at destination: "
-        << dest->name
+        << dest->wcType
         << std::endl;
       }
     }
@@ -1010,7 +1058,7 @@ struct weapComp_Round : public weaponComponent
       std::cout
       << std::left << std::setw(26)
       << "*No round at source"
-      << name
+      << wcType
       << std::endl;
     }
 
@@ -1024,12 +1072,12 @@ struct weapComp_Round : public weaponComponent
 
     if(HasRound())
     {
-      std::cout << "*Activating round in:     " << name << std::endl;
+      std::cout << "*Activating round in:     " << wcType << std::endl;
       roundActivated = round->activateRound();
     }
     else
     {
-      std::cout << "*No round to activate in: " << name << std::endl;
+      std::cout << "*No round to activate in: " << wcType << std::endl;
     }
 
     return roundActivated;
@@ -1043,11 +1091,11 @@ struct weapComp_Round : public weaponComponent
 
     if(round == nullptr)
     {
-      std::cout << "Round NOT in: " << name << std::endl;
+      std::cout << "Round NOT in: " << wcType << std::endl;
     }
     else
     {
-      std::cout << "Round IS in:  " << name << std::endl;
+      std::cout << "Round IS in:  " << wcType << std::endl;
     }
 
     //std::cout << "**DEBUG END weapComp_Round**" << std::endl;
@@ -1059,8 +1107,8 @@ protected:
 
 struct weapComp_Mag : public weapComp_Round
 {
-  weapComp_Mag(std::string name_, WEAP_COMPS_ENUMS wcType_, unsigned maxRoundCount_)
-  : weapComp_Round(name_, wcType_), maxRoundCount(maxRoundCount_)
+  weapComp_Mag(WEAP_COMPS_ENUMS wcType_, unsigned maxRoundCount_)
+  : weapComp_Round(wcType_), maxRoundCount(maxRoundCount_)
   {
   }
 
@@ -1095,7 +1143,7 @@ struct weapComp_Mag : public weapComp_Round
 
   void Reset()
   {
-    std::cout << "Resetting: " << name << std::endl;
+    std::cout << "Resetting: " << wcType << std::endl;
 
     roundCount = maxRoundCount;
 
@@ -1185,11 +1233,10 @@ private:
 struct weapComp_Port : public weaponComponent
 {
   weapComp_Port(
-    std::string name_,
     WEAP_COMPS_ENUMS wcType_,
     modCompCondtional* modCompCond_
   )
-    : weaponComponent(name_, wcType_)
+    : weaponComponent(wcType_)
     , modCompCond(modCompCond_)
   {
     modCompCond->parent = this;
@@ -1200,7 +1247,7 @@ struct weapComp_Port : public weaponComponent
 
   modCompCondtional *modCompCond = nullptr;
 
-  void connectComp();
+  //void connectComp();
 
   void addComp()
   {
@@ -1869,11 +1916,14 @@ struct modCompCond_Mag : public modCompCondtional
     //reachableMag->Reset();
     //return reachableMag;
 
+    //TODO: Implement functionality to speficiy where the
+    //      magizine is pulled from in the game world
     weapComp_Mag* reachableMag
-      = new weapComp_Mag("Magizine", weaponComponent::MAGIZINE, 10);
+      = new weapComp_Mag(weaponComponent::MAGIZINE, 10);
 
     reachableMag->Reset();
 
+      //TODO: This logic should be in weapComp_Mag
     reachableMag->weaponStages.push_back(new weapStage_cyclingInternally);
     reachableMag->weaponStages.push_back(new weapStage_cyclingExternally);
 
@@ -1895,28 +1945,30 @@ int main()
 //////////////////////////////
 //Weapon Components
 
+//TODO: Need to take all data relating to Weapon System and Serialize them
+
   //Pre-fire
   weaponComponent *trigger
-    = new weaponComponent("Trigger", weaponComponent::TRIGGER);
+    = new weaponComponent(weaponComponent::TRIGGER);
   weaponComponent *hammer
-    = new weaponComponent("Hammer", weaponComponent::HAMMER);
+    = new weaponComponent(weaponComponent::HAMMER);
   weapComp_Action *action
-    = new weapComp_Action("Action", weaponComponent::ACTION);
+    = new weapComp_Action(weaponComponent::ACTION);
 
   //Firing
   weapComp_Port   *feedPort
-    = new weapComp_Port("FeedPort", weaponComponent::FEEDPORT, new modCompCond_Mag);
+    = new weapComp_Port(weaponComponent::FEEDPORT, new modCompCond_Mag);
   weapComp_Round  *bolt
-    = new weapComp_Round("Bolt", weaponComponent::BOLT);
+    = new weapComp_Round(weaponComponent::BOLT);
   weapComp_Round  *chamber
-    = new weapComp_Round("Chamber", weaponComponent::CHAMBER);
+    = new weapComp_Round(weaponComponent::CHAMBER);
   //weaponComponent *ejectPort  = new weaponComponent("EjectPort", weaponComponent::CHAMBER); //UNUSED
 
   //Post-fire
   weaponComponent *barrel
-    = new weaponComponent("Barrel", weaponComponent::BARREL);
+    = new weaponComponent(weaponComponent::BARREL);
   weaponComponent *muzzle
-    = new weaponComponent("Muzzle", weaponComponent::MUZZLE);
+    = new weaponComponent(weaponComponent::MUZZLE);
 
 //////////////////////////////
 //Initializing Weapon Comps
@@ -1945,16 +1997,16 @@ std::cout << "\n**Initializing Weapons: START**" << std::endl;
     std::cout << "Weapon: Closed-bolt Rifle" << std::endl;
 
       //Closed-bolt Rifle
-    trigger->CompToActivate(action, TD_READY);
-    action->CompToActivate(hammer, TD_READY);
-    hammer->CompToActivate(chamber, TD_EITHER);
-    //hammer->CompToActivate(bolt, TD_ACTIVE);
-    //bolt->CompToActivate(chamber, TD_EITHER);
+    trigger->setCompToActivate(weaponComponent::ACTION, TD_READY);
+    action->setCompToActivate(weaponComponent::HAMMER, TD_READY);
+    hammer->setCompToActivate(weaponComponent::CHAMBER, TD_EITHER);
+    //hammer->setCompToActivate(weaponComponent::BOLT, TD_ACTIVE);
+    //bolt->setCompToActivate(weaponComponent::CHAMBER, TD_EITHER);
 
-    //chamber->CompToReady(bolt, TD_ACTIVE);
-    bolt->CompToReady(hammer, TD_EITHER);
-    hammer->CompToReady(action, TD_EITHER);
-    //action->CompToReady(trigger, TD_EITHER);
+    //chamber->setCompToReady(weaponComponent::BOLT, TD_ACTIVE);
+    bolt->setCompToReady(weaponComponent::HAMMER, TD_EITHER);
+    hammer->setCompToReady(weaponComponent::ACTION, TD_EITHER);
+    //action->setCompToReady(weaponComponent::TRIGGER, TD_EITHER);
   }
 
 #else
@@ -2042,7 +2094,7 @@ std::cout << "***Initializing Weapons: END***" << std::endl;
     std::cout << "\nENTER COMMAND: ";
     std::cin >> input;
 
-    if(input == "t") //Check weapon count
+    if(input == "t") //Check weapon ammo count
     {
       std::cout << "STATUS[Ammo check]" << std::endl;
 
