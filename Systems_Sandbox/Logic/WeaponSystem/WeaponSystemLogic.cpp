@@ -379,7 +379,7 @@ public:
     weapComps[type] = nullptr;
   }
 
-  void setComponent(triggerDirection condition,
+  bool setComponent(triggerDirection condition,
                     weaponComponent::WEAP_COMPS_ENUMS key)
   {
     bool countCycle = false;
@@ -402,7 +402,10 @@ public:
 
     if(QueueAlreadyProcessing)
     {
-      return;
+        //this return will be made internally
+          //no external call will get this return
+        //since queue is already processing
+      return true; //keep queue running
     }
 
     while(setCompQueue.empty() == false)
@@ -413,6 +416,7 @@ public:
 
       if(trigDir == TD_READY)
       {
+        //TODO: Move this logic to within weapComp_Action
           //NOTE: Goal to distinguish between each completed cycle in auto fire
         if(countCycle && wce == weaponComponent::ACTION)
         {
@@ -420,7 +424,17 @@ public:
           << ++roundCyclesFired << std::endl;
         }
 
-        readyComponent(wce);
+        //REVIEW: If weapCompenent exists
+      if(weapComps[wce] != nullptr)
+        if(readyComponent(wce) == false)
+        {
+          while(setCompQueue.empty() == false)
+          {
+            setCompQueue.pop();
+          }
+
+          return false;
+        }
       }
       else if(trigDir == TD_ACTIVE)
       {
@@ -436,11 +450,23 @@ public:
           << (roundCyclesFired + 1) << std::endl;
         }
 
-        activateComponent(wce);
+        //REVIEW: If weapCompenent exists
+      if(weapComps[wce] != nullptr)
+        if(activateComponent(wce) == false)
+        {
+          while(setCompQueue.empty() == false)
+          {
+            setCompQueue.pop();
+          }
+
+          return false;
+        }
       }
 
       setCompQueue.pop();
     }
+
+    return true;
   }
 
   bool IsActive(weaponComponent::WEAP_COMPS_ENUMS key)
@@ -1360,9 +1386,7 @@ unsigned weaponSystem::weaponRoundCount()
 }
 
 ////////////////////////////////////////////////////////////////////////////////
-//LOGIC
-//*optional; cases where state maybe unnecessary for
-//           the core functionality of the system
+//***LOGIC***
 
 //NOTE: **For rifle auto; could differ for other weapon types
 //Trigger: ready when released; activates action**
@@ -2172,8 +2196,13 @@ std::cout << "***Initializing Weapons: END***" << std::endl;
 
       while(i < roundsToFire)
       {
-        curWeapon.setComponent(TD_ACTIVE, weaponComponent::TRIGGER);
+        bool shouldCont = curWeapon.setComponent(TD_ACTIVE, weaponComponent::TRIGGER);
         curWeapon.setComponent(TD_READY, weaponComponent::TRIGGER);
+
+        if(shouldCont == false)
+        {
+          break;
+        }
 
         i += curWeapon.roundCyclesFired;
 
@@ -2237,6 +2266,7 @@ std::cout << "***Initializing Weapons: END***" << std::endl;
     }
     else
     {
+      //NOTE: This will print even if command inputted was 'q' (quit)
       std::cout << "UNKNOWN COMMAND" << std::endl;
     }
   }
