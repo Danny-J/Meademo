@@ -72,7 +72,7 @@ public:
     weapComps[type] = nullptr;
   }
 
-  void setComponent(weaponStage::triggerDirection condition,
+  bool setComponent(weaponStage::triggerDirection condition,
     weaponComponent::WEAP_COMPS_ENUMS key);
 
   bool IsActive(weaponComponent::WEAP_COMPS_ENUMS key)

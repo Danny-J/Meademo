@@ -1,1 +1,7 @@
-﻿
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (weapSys_Prototype.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  main.cpp
+  weapon_component.cpp
+  weapon_component_instances.cpp
+  weapon_system.cpp
+  Generating Code...
+  weapSys_Prototype.vcxproj -> C:\Users\danny\Desktop\Systems_Sandbox\Systems_Sandbox\Logic\WeaponSystem\weapSys_Sandbox\x64\Debug\weaponSystem.exe

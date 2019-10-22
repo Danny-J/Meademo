@@ -2,8 +2,8 @@
 #include "weapon_component_instances.h"
 #include "weapon_system.h"
 
-void weaponSystem::setComponent(weaponStage::triggerDirection condition,
-                                weaponComponent::WEAP_COMPS_ENUMS key)
+bool weaponSystem::setComponent(weaponStage::triggerDirection condition,
+  weaponComponent::WEAP_COMPS_ENUMS key)
 {
   bool countCycle = false;
 
@@ -25,7 +25,10 @@ void weaponSystem::setComponent(weaponStage::triggerDirection condition,
 
   if (QueueAlreadyProcessing)
   {
-    return;
+    //this return will be made internally
+      //no external call will get this return
+    //since queue is already processing
+    return true; //keep queue running
   }
 
   while (setCompQueue.empty() == false)
@@ -36,14 +39,25 @@ void weaponSystem::setComponent(weaponStage::triggerDirection condition,
 
     if (trigDir == weaponStage::TD_READY)
     {
-      //NOTE: Goal to distinguish between each completed cycle in auto fire
+      //TODO: Move this logic to within weapComp_Action
+        //NOTE: Goal to distinguish between each completed cycle in auto fire
       if (countCycle && wce == weaponComponent::ACTION)
       {
         std::cout << "Completed Round Cycle: "
           << ++roundCyclesFired << std::endl;
       }
 
-      readyComponent(wce);
+      //REVIEW: If weapCompenent exists
+      if (weapComps[wce] != nullptr)
+        if (readyComponent(wce) == false)
+        {
+          while (setCompQueue.empty() == false)
+          {
+            setCompQueue.pop();
+          }
+
+          return false;
+        }
     }
     else if (trigDir == weaponStage::TD_ACTIVE)
     {
@@ -59,11 +73,23 @@ void weaponSystem::setComponent(weaponStage::triggerDirection condition,
           << (roundCyclesFired + 1) << std::endl;
       }
 
-      activateComponent(wce);
+      //REVIEW: If weapCompenent exists
+      if (weapComps[wce] != nullptr)
+        if (activateComponent(wce) == false)
+        {
+          while (setCompQueue.empty() == false)
+          {
+            setCompQueue.pop();
+          }
+
+          return false;
+        }
     }
 
     setCompQueue.pop();
   }
+
+  return true;
 }
 
 bool weaponSystem::activateComponent(weaponComponent::WEAP_COMPS_ENUMS key)

@@ -208,54 +208,43 @@ int main()
     {
       std::cout << "ACTION[Firing]; Number of trigger pulls: ";
 
-      std::string inputNum;
-      std::cin >> inputNum;
+      unsigned triggerPulls = 1;
 
-      //If input did not contain a number value;
-      if (isdigit(inputNum.c_str()[0]) == false)
-      {
-        std::cout << "Input was not a number" << std::endl;
-      }
-      else
-      {
-        int triggerPulls = atoi(inputNum.c_str()); //1;
-        std::cout << triggerPulls << " PULL(s)" << std::endl;
+      std::cin >> triggerPulls;
 
-        for (unsigned i = 0; i < triggerPulls; ++i)
-        {
-          curWeapon.setComponent(weaponStage::TD_ACTIVE, weaponComponent::TRIGGER);
-          curWeapon.setComponent(weaponStage::TD_READY, weaponComponent::TRIGGER);
-        }
+      std::cout << triggerPulls << " PULL(s)" << std::endl;
+
+      for (unsigned i = 0; i < triggerPulls; ++i)
+      {
+        curWeapon.setComponent(weaponStage::TD_ACTIVE, weaponComponent::TRIGGER);
+        curWeapon.setComponent(weaponStage::TD_READY, weaponComponent::TRIGGER);
       }
     }
     else if (input == "c") //Fire Weapon; per rounds fired
     {
       std::cout << "ACTION[Firing]; Number of rounds to fire: ";
 
-      std::string inputNum;
-      std::cin >> inputNum;
+      unsigned roundsToFire = 1;
 
-      //If input did not contain a number value;
-      if (isdigit(inputNum.c_str()[0]) == false)
+      std::cin >> roundsToFire;
+
+      std::cout << roundsToFire << " ROUND(s) TO FIRE" << std::endl;
+
+      unsigned i = 0;
+
+      while (i < roundsToFire)
       {
-        std::cout << "Input was not a number" << std::endl;
-      }
-      else
-      {
-        unsigned roundsToFire = atoi(inputNum.c_str());
-        std::cout << roundsToFire << " ROUND(s) TO FIRE" << std::endl;
+        bool shouldCont = curWeapon.setComponent(weaponStage::TD_ACTIVE, weaponComponent::TRIGGER);
+        curWeapon.setComponent(weaponStage::TD_READY, weaponComponent::TRIGGER);
 
-        unsigned i = 0;
-
-        while (i < roundsToFire)
+        if (shouldCont == false)
         {
-          curWeapon.setComponent(weaponStage::TD_ACTIVE, weaponComponent::TRIGGER);
-          curWeapon.setComponent(weaponStage::TD_READY, weaponComponent::TRIGGER);
-
-          i += curWeapon.roundCyclesFired;
-
-          //std::cout << "\ni: " << i << "\n" << std::endl; //DEBUG
+          break;
         }
+
+        i += curWeapon.roundCyclesFired;
+
+        //std::cout << "\ni: " << i << "\n" << std::endl; //DEBUG
       }
     }
     else if (input == "e") //FireModes
