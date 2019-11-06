@@ -1,0 +1,913 @@
+﻿Log file open, 11/05/19 19:10:04
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Mechanics_Sandbox
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.411854
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin ApexDestruction
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: Intel(R) HD Graphics 630
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: D:/EpicGames/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.11.06-03.10.05:427][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.11.06-03.10.05:427][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.11.06-03.10.05:427][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Config/Windows/Engine.ini]
+[2019.11.06-03.10.05:427][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.11.06-03.10.05:427][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Config/Windows/Engine.ini]
+[2019.11.06-03.10.05:427][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Config/Windows/Engine.ini]
+[2019.11.06-03.10.05:427][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.11.06-03.10.05:427][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.11.06-03.10.05:427][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.11.06-03.10.05:427][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.11.06-03.10.05:427][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.11.06-03.10.05:427][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.11.06-03.10.05:427][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.11.06-03.10.05:427][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.11.06-03.10.05:427][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.11.06-03.10.05:427][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.11.06-03.10.05:427][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.11.06-03.10.05:427][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.11.06-03.10.05:427][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.11.06-03.10.05:427][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Config/Windows/Engine.ini]
+[2019.11.06-03.10.05:427][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.11.06-03.10.05:427][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.11.06-03.10.05:428][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.11.06-03.10.05:428][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.11.06-03.10.05:428][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.11.06-03.10.05:428][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.11.06-03.10.05:428][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.11.06-03.10.05:428][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.11.06-03.10.05:428][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.11.06-03.10.05:428][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.11.06-03.10.05:428][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.11.06-03.10.05:428][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.11.06-03.10.05:428][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.11.06-03.10.05:428][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Config/Windows/Engine.ini]
+[2019.11.06-03.10.05:428][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Config/Windows/Engine.ini]
+[2019.11.06-03.10.05:437][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Config/Windows/Scalability.ini]
+[2019.11.06-03.10.05:437][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.06-03.10.05:437][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.06-03.10.05:437][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Config/Windows/Scalability.ini]
+[2019.11.06-03.10.05:437][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.06-03.10.05:437][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Config/Windows/Scalability.ini]
+[2019.11.06-03.10.05:437][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.06-03.10.05:437][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.06-03.10.05:437][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.06-03.10.05:438][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.06-03.10.05:438][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.06-03.10.05:438][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.06-03.10.05:438][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.06-03.10.05:438][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.06-03.10.05:438][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.06-03.10.05:438][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.06-03.10.05:438][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.06-03.10.05:438][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.06-03.10.05:438][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.06-03.10.05:438][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.06-03.10.05:438][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.06-03.10.05:438][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.06-03.10.05:438][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.06-03.10.05:438][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.06-03.10.05:438][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Config/Windows/Scalability.ini]
+[2019.11.06-03.10.05:438][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.06-03.10.05:438][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.06-03.10.05:438][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.06-03.10.05:438][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.06-03.10.05:438][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.06-03.10.05:438][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.06-03.10.05:438][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.06-03.10.05:438][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.06-03.10.05:438][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.06-03.10.05:438][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.06-03.10.05:438][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.06-03.10.05:438][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.06-03.10.05:438][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.06-03.10.05:439][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.06-03.10.05:439][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.06-03.10.05:439][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.06-03.10.05:439][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.06-03.10.05:439][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.06-03.10.05:439][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.06-03.10.05:439][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.06-03.10.05:439][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.06-03.10.05:439][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.06-03.10.05:439][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.06-03.10.05:439][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.06-03.10.05:439][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.06-03.10.05:439][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.06-03.10.05:439][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.06-03.10.05:439][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.06-03.10.05:439][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.06-03.10.05:439][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.06-03.10.05:439][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Config/Windows/Scalability.ini]
+[2019.11.06-03.10.05:439][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.06-03.10.05:439][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.06-03.10.05:439][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.06-03.10.05:439][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.06-03.10.05:439][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.06-03.10.05:439][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.06-03.10.05:439][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.06-03.10.05:439][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.06-03.10.05:439][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Config/Windows/Scalability.ini]
+[2019.11.06-03.10.05:439][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.06-03.10.05:440][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.06-03.10.05:440][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.06-03.10.05:440][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.06-03.10.05:440][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.06-03.10.05:440][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.06-03.10.05:440][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.06-03.10.05:440][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.06-03.10.05:440][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.06-03.10.05:440][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.06-03.10.05:440][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.06-03.10.05:440][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.06-03.10.05:440][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.06-03.10.05:440][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Config/Windows/Scalability.ini]
+[2019.11.06-03.10.05:440][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.06-03.10.05:440][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.06-03.10.05:440][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.06-03.10.05:440][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.11.06-03.10.05:487][  0]LogHAL: Display: Platform has ~ 16 GB [17059446784 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.11.06-03.10.05:487][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.11.06-03.10.05:487][  0]LogInit: Going up to parent DeviceProfile []
+[2019.11.06-03.10.05:487][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Config/Windows/Scalability.ini]
+[2019.11.06-03.10.05:487][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.06-03.10.05:487][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.06-03.10.05:487][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Config/Windows/Scalability.ini]
+[2019.11.06-03.10.05:487][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.06-03.10.05:488][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Config/Windows/Scalability.ini]
+[2019.11.06-03.10.05:488][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.06-03.10.05:488][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.06-03.10.05:488][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.06-03.10.05:488][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.06-03.10.05:488][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.06-03.10.05:488][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.06-03.10.05:488][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.06-03.10.05:488][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.06-03.10.05:488][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.06-03.10.05:488][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.06-03.10.05:488][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.06-03.10.05:488][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.06-03.10.05:489][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.06-03.10.05:489][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.06-03.10.05:489][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.06-03.10.05:489][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.06-03.10.05:489][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.06-03.10.05:489][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.06-03.10.05:489][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Config/Windows/Scalability.ini]
+[2019.11.06-03.10.05:489][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.06-03.10.05:489][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.06-03.10.05:489][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.06-03.10.05:489][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.06-03.10.05:489][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.06-03.10.05:489][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.06-03.10.05:489][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.06-03.10.05:489][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.06-03.10.05:489][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.06-03.10.05:489][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.06-03.10.05:490][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.06-03.10.05:490][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.06-03.10.05:490][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.06-03.10.05:490][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.06-03.10.05:490][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.06-03.10.05:490][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.06-03.10.05:490][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.06-03.10.05:490][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.06-03.10.05:490][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.06-03.10.05:490][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.06-03.10.05:490][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.06-03.10.05:490][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.06-03.10.05:490][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.06-03.10.05:490][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.06-03.10.05:490][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.06-03.10.05:490][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.06-03.10.05:490][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.06-03.10.05:490][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.06-03.10.05:491][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.06-03.10.05:491][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.06-03.10.05:491][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Config/Windows/Scalability.ini]
+[2019.11.06-03.10.05:491][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.06-03.10.05:491][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.06-03.10.05:491][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.06-03.10.05:491][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.06-03.10.05:491][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.06-03.10.05:491][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.06-03.10.05:491][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.06-03.10.05:491][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.06-03.10.05:491][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Config/Windows/Scalability.ini]
+[2019.11.06-03.10.05:491][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.06-03.10.05:491][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.06-03.10.05:492][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.06-03.10.05:492][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.06-03.10.05:492][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.06-03.10.05:492][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.06-03.10.05:492][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.06-03.10.05:492][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.06-03.10.05:492][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.06-03.10.05:492][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.06-03.10.05:492][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.06-03.10.05:492][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.06-03.10.05:492][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.06-03.10.05:492][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Config/Windows/Scalability.ini]
+[2019.11.06-03.10.05:492][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.06-03.10.05:492][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.06-03.10.05:493][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.11.06-03.10.05:493][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.11.06-03.10.05:493][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.11.06-03.10.05:493][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Config/Windows/Engine.ini]
+[2019.11.06-03.10.05:494][  0]LogInit: Computer: MIMSI
+[2019.11.06-03.10.05:494][  0]LogInit: User: danny
+[2019.11.06-03.10.05:494][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.11.06-03.10.05:494][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.11.06-03.10.05:494][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.11.06-03.10.05:494][  0]LogMemory: Platform Memory Stats for Windows
+[2019.11.06-03.10.05:494][  0]LogMemory: Process Physical Memory: 98.01 MB used, 98.01 MB peak
+[2019.11.06-03.10.05:494][  0]LogMemory: Process Virtual Memory: 92.96 MB used, 92.96 MB peak
+[2019.11.06-03.10.05:495][  0]LogMemory: Physical Memory: 6631.21 MB used,  9637.94 MB free, 16269.16 MB total
+[2019.11.06-03.10.05:495][  0]LogMemory: Virtual Memory: 4645.84 MB used,  134213080.00 MB free, 134217728.00 MB total
+[2019.11.06-03.10.05:570][  0]LogInit: Using OS detected language (en-US).
+[2019.11.06-03.10.05:570][  0]LogInit: Using OS detected locale (en-US).
+[2019.11.06-03.10.05:574][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.11.06-03.10.06:225][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.11.06-03.10.06:225][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.11.06-03.10.07:264][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2019.11.06-03.10.07:264][  0]LogD3D11RHI: D3D11 adapters:
+[2019.11.06-03.10.07:473][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2019.11.06-03.10.07:473][  0]LogD3D11RHI:       8082/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.11.06-03.10.07:517][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.11.06-03.10.07:517][  0]LogD3D11RHI:       128/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.11.06-03.10.07:526][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.11.06-03.10.07:526][  0]LogD3D11RHI:       0/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.11.06-03.10.07:526][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.11.06-03.10.07:619][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.11.06-03.10.07:619][  0]LogD3D11RHI:     GPU DeviceId: 0x1ba1 (for the marketing name, search the web for "GPU Device Id")
+[2019.11.06-03.10.07:619][  0]LogWindows: EnumDisplayDevices:
+[2019.11.06-03.10.07:620][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.11.06-03.10.07:621][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.11.06-03.10.07:622][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.11.06-03.10.07:623][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2019.11.06-03.10.07:624][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.11.06-03.10.07:625][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.11.06-03.10.07:625][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.11.06-03.10.07:626][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.11.06-03.10.07:626][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2019.11.06-03.10.07:626][  0]LogD3D11RHI:   Driver Version: 440.97 (internal:26.21.14.4097, unified:440.97)
+[2019.11.06-03.10.07:626][  0]LogD3D11RHI:      Driver Date: 10-16-2019
+[2019.11.06-03.10.07:626][  0]LogRHI: Texture pool is 5657 MB (70% of 8082 MB)
+[2019.11.06-03.10.07:813][  0]LogD3D11RHI: Async texture creation enabled
+[2019.11.06-03.10.07:827][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.06-03.10.07:828][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.06-03.10.07:829][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.06-03.10.07:848][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.11.06-03.10.08:663][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.11.06-03.10.08:700][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.11.06-03.10.08:742][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.11.06-03.10.08:783][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.11.06-03.10.08:823][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.11.06-03.10.08:866][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.11.06-03.10.08:903][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.11.06-03.10.08:946][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.11.06-03.10.08:969][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.11.06-03.10.09:218][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.11.06-03.10.09:218][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.11.06-03.10.09:218][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.11.06-03.10.09:218][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.11.06-03.10.09:218][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.11.06-03.10.09:218][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.11.06-03.10.09:218][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.11.06-03.10.09:218][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.11.06-03.10.09:218][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.11.06-03.10.09:218][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.11.06-03.10.09:218][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.11.06-03.10.09:218][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.11.06-03.10.09:218][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.11.06-03.10.09:218][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.11.06-03.10.09:218][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.11.06-03.10.09:218][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.11.06-03.10.09:218][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.11.06-03.10.09:218][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.11.06-03.10.09:222][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.11.06-03.10.09:323][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.11.06-03.10.09:323][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.11.06-03.10.09:402][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.11.06-03.10.09:402][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.11.06-03.10.09:446][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.11.06-03.10.09:487][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.11.06-03.10.09:530][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.11.06-03.10.09:571][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.11.06-03.10.09:730][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.11.06-03.10.09:730][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.11.06-03.10.09:730][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.11.06-03.10.09:753][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.11.06-03.10.09:872][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Intermediate/Shaders/WorkingDirectory/7716/).
+[2019.11.06-03.10.09:873][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/danny/AppData/Local/Temp/UnrealShaderWorkingDir/B9542D7E4D61AC0F645732AF8AD62788/'.
+[2019.11.06-03.10.09:878][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.11.06-03.10.09:878][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.11.06-03.10.09:878][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.11.06-03.10.11:646][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.11.06-03.10.11:761][  0]LogDerivedDataCache: Loaded boot cache 0.11s 71MB C:/Users/danny/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.11.06-03.10.11:761][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/danny/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.11.06-03.10.11:762][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.11.06-03.10.11:762][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.11.06-03.10.11:762][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.06-03.10.11:762][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.11.06-03.10.11:796][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.11.06-03.10.11:797][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.06-03.10.11:797][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.11.06-03.10.11:810][  0]LogDerivedDataCache: Using Local data cache path C:/Users/danny/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.11.06-03.10.11:810][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.11.06-03.10.11:810][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.11.06-03.10.11:878][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.11.06-03.10.11:882][  0]LogSlate: Using FreeType 2.6.0
+[2019.11.06-03.10.11:884][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.11.06-03.10.12:119][  0]LogAssetRegistry: FAssetRegistry took 0.0616 seconds to start up
+[2019.11.06-03.10.13:114][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.06-03.10.13:476][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.11.06-03.10.13:476][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.11.06-03.10.13:476][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.11.06-03.10.13:476][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.11.06-03.10.13:476][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.11.06-03.10.13:523][  0]LogNetVersion: Mechanics_Sandbox 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 3413983669)
+[2019.11.06-03.10.14:713][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.144491 seconds
+[2019.11.06-03.10.14:735][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.11.06-03.10.14:736][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.11.06-03.10.14:736][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.11.06-03.10.17:605][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.11.06-03.10.17:623][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.11.06-03.10.17:844][  0]SourceControl: Source control is disabled
+[2019.11.06-03.10.17:844][  0]SourceControl: Source control is disabled
+[2019.11.06-03.10.17:848][  0]SourceControl: Source control is disabled
+[2019.11.06-03.10.17:851][  0]SourceControl: Source control is disabled
+[2019.11.06-03.10.18:041][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.11.06-03.10.18:338][  0]LogOcInput: OculusInput pre-init called
+[2019.11.06-03.10.20:438][  0]LogEngine: Initializing Engine...
+[2019.11.06-03.10.20:440][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2019.11.06-03.10.20:443][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.11.06-03.10.21:069][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.11.06-03.10.21:099][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.11.06-03.10.21:209][  0]LogInit: XAudio2 using 'Headset Earphone (SteelSeries Arctis 5 Chat)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.06-03.10.21:268][  0]LogInit: FAudioDevice initialized.
+[2019.11.06-03.10.21:268][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.11.06-03.10.21:389][  0]LogDerivedDataCache: Saved boot cache 0.12s 71MB C:/Users/danny/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.11.06-03.10.21:418][  0]LogInit: Texture streaming: Enabled
+[2019.11.06-03.10.21:453][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.11.06-03.10.21:501][  0]LogInit: Transaction tracking system initialized
+[2019.11.06-03.10.21:553][  0]BlueprintLog: New page: Editor Load
+[2019.11.06-03.10.21:733][  0]LocalizationService: Localization service is disabled
+[2019.11.06-03.10.22:564][  0]LogFileCache: Scanning file cache for directory 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/' took 0.03s
+[2019.11.06-03.10.22:564][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.11.06-03.10.22:564][  0]LogCook: Display: Mobile HDR setting 1
+[2019.11.06-03.10.23:059][  0]SourceControl: Source control is disabled
+[2019.11.06-03.10.23:059][  0]Cmd: MAP LOAD FILE="C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.06-03.10.23:060][  0]LightingResults: New page: Lighting Build
+[2019.11.06-03.10.23:064][  0]MapCheck: New page: Map Check
+[2019.11.06-03.10.23:064][  0]LightingResults: New page: Lighting Build
+[2019.11.06-03.10.23:145][  0]LogUObjectHash: Compacting FUObjectHashTables data took   5.46ms
+[2019.11.06-03.10.25:286][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.11.06-03.10.25:380][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.06-03.10.25:458][  0]LogUObjectHash: Compacting FUObjectHashTables data took   6.51ms
+[2019.11.06-03.10.25:458][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.06-03.10.25:459][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.378ms to complete.
+[2019.11.06-03.10.25:459][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 2.400
+[2019.11.06-03.10.25:705][  0]LogCollectionManager: Loaded 0 collections in 0.002931 seconds
+[2019.11.06-03.10.25:723][  0]LogFileCache: Scanning file cache for directory 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Collections/' took 0.01s
+[2019.11.06-03.10.25:723][  0]LogFileCache: Scanning file cache for directory 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Developers/danny/Collections/' took 0.00s
+[2019.11.06-03.10.25:723][  0]LogFileCache: Scanning file cache for directory 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Collections/' took 0.00s
+[2019.11.06-03.10.25:723][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.11.06-03.10.25:744][  0]LogContentBrowser: Native class hierarchy populated in 0.0207 seconds. Added 2742 classes and 666 folders.
+[2019.11.06-03.10.25:756][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.11.06-03.10.25:760][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-03.10.25:762][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-03.10.25:763][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-03.10.25:765][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-03.10.25:766][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-03.10.25:768][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-03.10.25:769][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-03.10.25:771][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-03.10.25:772][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-03.10.25:773][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-03.10.25:775][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-03.10.25:776][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-03.10.25:778][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-03.10.25:779][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-03.10.25:781][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-03.10.25:782][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-03.10.25:784][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-03.10.25:786][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-03.10.25:787][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-03.10.25:789][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-03.10.25:791][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-03.10.25:793][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-03.10.25:794][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-03.10.25:795][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-03.10.25:797][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-03.10.25:799][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.06-03.10.25:912][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.11.06-03.10.26:003][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.06-03.10.26:026][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.06-03.10.26:046][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.06-03.10.26:067][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.06-03.10.26:135][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.11.06-03.10.26:135][  0]LogLoad: (Engine Initialization) Total time: 25.71 seconds
+[2019.11.06-03.10.26:135][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.11.06-03.10.26:222][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.11.06-03.10.26:226][  0]LogSlate: Took 0.000460 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.11.06-03.10.26:231][  0]LogSlate: Took 0.000439 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.11.06-03.10.26:232][  0]LogSlate: Took 0.000339 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.11.06-03.10.26:237][  0]LogSlate: Took 0.000475 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.11.06-03.10.26:457][  0]LogSlate: Took 0.000461 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.06-03.10.26:647][  1]LogRenderer: Reallocating scene render targets to support 756x892 Format 10 NumSamples 1 (Frame:1).
+[2019.11.06-03.10.26:954][  1]LogAssetRegistry: Asset discovery search completed in 14.8586 seconds
+[2019.11.06-03.10.26:961][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.11.06-03.10.26:961][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000423 seconds (updated 0 objects)
+[2019.11.06-03.10.30:733][ 13]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.06-03.10.33:117][108]LogSlate: Took 0.000509 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.06-03.10.33:174][108]LogBlueprint: Warning: Node '/Game/Explosive/GrenadeProjectile.GrenadeProjectile:EventGraph.K2Node_Event_3' missing NodeGuid, this can cause deterministic cooking issues please resave package.
+[2019.11.06-03.10.35:392][190]LogSlate: Window 'Failed Renames' being destroyed
+[2019.11.06-03.10.44:113][531]LogMetaData: Removing '/Game/Explosive.Explosive_C' ref from Metadata '/Game/Explosive/Explosive.PackageMetaData'
+[2019.11.06-03.10.44:113][531]LogMetaData: Removing '/Game/Explosive.SKEL_Explosive_C:LastState' ref from Metadata '/Game/Explosive/Explosive.PackageMetaData'
+[2019.11.06-03.10.44:114][531]LogMetaData: Removing '/Game/Explosive.SKEL_Explosive_C:CurrentState' ref from Metadata '/Game/Explosive/Explosive.PackageMetaData'
+[2019.11.06-03.10.44:115][531]LogMetaData: Removing '/Game/Explosive.SKEL_Explosive_C:Timeline_Flash' ref from Metadata '/Game/Explosive/Explosive.PackageMetaData'
+[2019.11.06-03.10.44:115][531]LogMetaData: Removing '/Game/Explosive.SKEL_Explosive_C:DefaultSceneRoot' ref from Metadata '/Game/Explosive/Explosive.PackageMetaData'
+[2019.11.06-03.10.44:116][531]LogMetaData: Removing '/Game/Explosive.SKEL_Explosive_C:RadialForce' ref from Metadata '/Game/Explosive/Explosive.PackageMetaData'
+[2019.11.06-03.10.44:117][531]LogMetaData: Removing '/Game/Explosive.SKEL_Explosive_C:ParticleSystem' ref from Metadata '/Game/Explosive/Explosive.PackageMetaData'
+[2019.11.06-03.10.44:117][531]LogMetaData: Removing '/Game/Explosive.SKEL_Explosive_C:SFX' ref from Metadata '/Game/Explosive/Explosive.PackageMetaData'
+[2019.11.06-03.10.44:117][531]LogMetaData: Removing '/Game/Explosive.SKEL_Explosive_C:Infographic' ref from Metadata '/Game/Explosive/Explosive.PackageMetaData'
+[2019.11.06-03.10.44:118][531]LogMetaData: Removing '/Game/Explosive.SKEL_Explosive_C:Flash' ref from Metadata '/Game/Explosive/Explosive.PackageMetaData'
+[2019.11.06-03.10.44:118][531]LogMetaData: Removing '/Game/Explosive.SKEL_Explosive_C:CollisionComp' ref from Metadata '/Game/Explosive/Explosive.PackageMetaData'
+[2019.11.06-03.10.44:119][531]LogMetaData: Removing '/Game/Explosive.SKEL_Explosive_C:Sphere' ref from Metadata '/Game/Explosive/Explosive.PackageMetaData'
+[2019.11.06-03.10.44:119][531]LogMetaData: Removing '/Game/Explosive.SKEL_Explosive_C:UserConstructionScript' ref from Metadata '/Game/Explosive/Explosive.PackageMetaData'
+[2019.11.06-03.10.44:120][531]LogMetaData: Removing '/Game/Explosive.SKEL_Explosive_C' ref from Metadata '/Game/Explosive/Explosive.PackageMetaData'
+[2019.11.06-03.10.44:120][531]LogMetaData: Removing '/Game/Explosive.Explosive_C:LastState' ref from Metadata '/Game/Explosive/Explosive.PackageMetaData'
+[2019.11.06-03.10.44:121][531]LogMetaData: Removing '/Game/Explosive.Explosive_C:CurrentState' ref from Metadata '/Game/Explosive/Explosive.PackageMetaData'
+[2019.11.06-03.10.44:121][531]LogMetaData: Removing '/Game/Explosive.Explosive_C:Timeline_Flash' ref from Metadata '/Game/Explosive/Explosive.PackageMetaData'
+[2019.11.06-03.10.44:122][531]LogMetaData: Removing '/Game/Explosive.Explosive_C:DefaultSceneRoot' ref from Metadata '/Game/Explosive/Explosive.PackageMetaData'
+[2019.11.06-03.10.44:122][531]LogMetaData: Removing '/Game/Explosive.Explosive_C:RadialForce' ref from Metadata '/Game/Explosive/Explosive.PackageMetaData'
+[2019.11.06-03.10.44:123][531]LogMetaData: Removing '/Game/Explosive.Explosive_C:ParticleSystem' ref from Metadata '/Game/Explosive/Explosive.PackageMetaData'
+[2019.11.06-03.10.44:123][531]LogMetaData: Removing '/Game/Explosive.Explosive_C:SFX' ref from Metadata '/Game/Explosive/Explosive.PackageMetaData'
+[2019.11.06-03.10.44:124][531]LogMetaData: Removing '/Game/Explosive.Explosive_C:Infographic' ref from Metadata '/Game/Explosive/Explosive.PackageMetaData'
+[2019.11.06-03.10.44:124][531]LogMetaData: Removing '/Game/Explosive.Explosive_C:Flash' ref from Metadata '/Game/Explosive/Explosive.PackageMetaData'
+[2019.11.06-03.10.44:125][531]LogMetaData: Removing '/Game/Explosive.Explosive_C:CollisionComp' ref from Metadata '/Game/Explosive/Explosive.PackageMetaData'
+[2019.11.06-03.10.44:125][531]LogMetaData: Removing '/Game/Explosive.Explosive_C:Sphere' ref from Metadata '/Game/Explosive/Explosive.PackageMetaData'
+[2019.11.06-03.10.44:158][531]LogMetaData: Removing '/Game/ExplosiveStates.ExplosiveStates' ref from Metadata '/Game/Explosive/ExplosiveStates.PackageMetaData'
+[2019.11.06-03.10.44:174][531]LogMetaData: Removing '/Game/GrenadeProjectile.GrenadeProjectile:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Explosive/GrenadeProjectile.PackageMetaData'
+[2019.11.06-03.10.44:175][531]LogMetaData: Removing '/Game/GrenadeProjectile.GrenadeProjectile_C' ref from Metadata '/Game/Explosive/GrenadeProjectile.PackageMetaData'
+[2019.11.06-03.10.44:175][531]LogMetaData: Removing '/Game/GrenadeProjectile.GrenadeProjectile:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Explosive/GrenadeProjectile.PackageMetaData'
+[2019.11.06-03.10.44:176][531]LogMetaData: Removing '/Game/GrenadeProjectile.GrenadeProjectile:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/Explosive/GrenadeProjectile.PackageMetaData'
+[2019.11.06-03.10.44:177][531]LogMetaData: Removing '/Game/GrenadeProjectile.GrenadeProjectile:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Explosive/GrenadeProjectile.PackageMetaData'
+[2019.11.06-03.10.44:178][531]LogMetaData: Removing '/Game/GrenadeProjectile.GrenadeProjectile:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Explosive/GrenadeProjectile.PackageMetaData'
+[2019.11.06-03.10.44:178][531]LogMetaData: Removing '/Game/GrenadeProjectile.GrenadeProjectile:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/Explosive/GrenadeProjectile.PackageMetaData'
+[2019.11.06-03.10.44:179][531]LogMetaData: Removing '/Game/GrenadeProjectile.SKEL_GrenadeProjectile_C:ReceiveBeginPlay' ref from Metadata '/Game/Explosive/GrenadeProjectile.PackageMetaData'
+[2019.11.06-03.10.44:180][531]LogMetaData: Removing '/Game/GrenadeProjectile.SKEL_GrenadeProjectile_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Explosive/GrenadeProjectile.PackageMetaData'
+[2019.11.06-03.10.44:180][531]LogMetaData: Removing '/Game/GrenadeProjectile.SKEL_GrenadeProjectile_C:ReceiveTick' ref from Metadata '/Game/Explosive/GrenadeProjectile.PackageMetaData'
+[2019.11.06-03.10.44:181][531]LogMetaData: Removing '/Game/GrenadeProjectile.SKEL_GrenadeProjectile_C:ProjectileMovement' ref from Metadata '/Game/Explosive/GrenadeProjectile.PackageMetaData'
+[2019.11.06-03.10.44:182][531]LogMetaData: Removing '/Game/GrenadeProjectile.SKEL_GrenadeProjectile_C:UserConstructionScript' ref from Metadata '/Game/Explosive/GrenadeProjectile.PackageMetaData'
+[2019.11.06-03.10.44:183][531]LogMetaData: Removing '/Game/GrenadeProjectile.SKEL_GrenadeProjectile_C' ref from Metadata '/Game/Explosive/GrenadeProjectile.PackageMetaData'
+[2019.11.06-03.10.44:184][531]LogMetaData: Removing '/Game/GrenadeProjectile.GrenadeProjectile_C:ProjectileMovement' ref from Metadata '/Game/Explosive/GrenadeProjectile.PackageMetaData'
+[2019.11.06-03.10.44:200][531]LogMetaData: Removing '/Game/ImpactGrenade.ImpactGrenade_C' ref from Metadata '/Game/Explosive/ImpactGrenade.PackageMetaData'
+[2019.11.06-03.10.44:201][531]LogMetaData: Removing '/Game/ImpactGrenade.ImpactGrenade:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Explosive/ImpactGrenade.PackageMetaData'
+[2019.11.06-03.10.44:201][531]LogMetaData: Removing '/Game/ImpactGrenade.ImpactGrenade:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Explosive/ImpactGrenade.PackageMetaData'
+[2019.11.06-03.10.44:202][531]LogMetaData: Removing '/Game/ImpactGrenade.SKEL_ImpactGrenade_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Explosive/ImpactGrenade.PackageMetaData'
+[2019.11.06-03.10.44:202][531]LogMetaData: Removing '/Game/ImpactGrenade.SKEL_ImpactGrenade_C:UserConstructionScript' ref from Metadata '/Game/Explosive/ImpactGrenade.PackageMetaData'
+[2019.11.06-03.10.44:202][531]LogMetaData: Removing '/Game/ImpactGrenade.SKEL_ImpactGrenade_C' ref from Metadata '/Game/Explosive/ImpactGrenade.PackageMetaData'
+[2019.11.06-03.10.44:203][531]LogMetaData: Removing '/Game/ImpactGrenade.ImpactGrenade_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Explosive/ImpactGrenade.PackageMetaData'
+[2019.11.06-03.10.44:203][531]LogMetaData: Removing '/Game/ImpactGrenade.ImpactGrenade_C:UserConstructionScript' ref from Metadata '/Game/Explosive/ImpactGrenade.PackageMetaData'
+[2019.11.06-03.10.44:224][531]LogMetaData: Removing '/Game/RadiusMine.RadiusMine:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Explosive/RadiusMine.PackageMetaData'
+[2019.11.06-03.10.44:224][531]LogMetaData: Removing '/Game/RadiusMine.RadiusMine_C' ref from Metadata '/Game/Explosive/RadiusMine.PackageMetaData'
+[2019.11.06-03.10.44:225][531]LogMetaData: Removing '/Game/RadiusMine.RadiusMine:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Explosive/RadiusMine.PackageMetaData'
+[2019.11.06-03.10.44:225][531]LogMetaData: Removing '/Game/RadiusMine.SKEL_RadiusMine_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Explosive/RadiusMine.PackageMetaData'
+[2019.11.06-03.10.44:226][531]LogMetaData: Removing '/Game/RadiusMine.SKEL_RadiusMine_C:ReceiveTick' ref from Metadata '/Game/Explosive/RadiusMine.PackageMetaData'
+[2019.11.06-03.10.44:226][531]LogMetaData: Removing '/Game/RadiusMine.SKEL_RadiusMine_C:TriggerProximity' ref from Metadata '/Game/Explosive/RadiusMine.PackageMetaData'
+[2019.11.06-03.10.44:226][531]LogMetaData: Removing '/Game/RadiusMine.SKEL_RadiusMine_C:ProximenityDisk' ref from Metadata '/Game/Explosive/RadiusMine.PackageMetaData'
+[2019.11.06-03.10.44:227][531]LogMetaData: Removing '/Game/RadiusMine.SKEL_RadiusMine_C:Cylinder' ref from Metadata '/Game/Explosive/RadiusMine.PackageMetaData'
+[2019.11.06-03.10.44:227][531]LogMetaData: Removing '/Game/RadiusMine.SKEL_RadiusMine_C:UserConstructionScript' ref from Metadata '/Game/Explosive/RadiusMine.PackageMetaData'
+[2019.11.06-03.10.44:228][531]LogMetaData: Removing '/Game/RadiusMine.SKEL_RadiusMine_C' ref from Metadata '/Game/Explosive/RadiusMine.PackageMetaData'
+[2019.11.06-03.10.44:228][531]LogMetaData: Removing '/Game/RadiusMine.RadiusMine_C:TriggerProximity' ref from Metadata '/Game/Explosive/RadiusMine.PackageMetaData'
+[2019.11.06-03.10.44:229][531]LogMetaData: Removing '/Game/RadiusMine.RadiusMine_C:ProximenityDisk' ref from Metadata '/Game/Explosive/RadiusMine.PackageMetaData'
+[2019.11.06-03.10.44:229][531]LogMetaData: Removing '/Game/RadiusMine.RadiusMine_C:Cylinder' ref from Metadata '/Game/Explosive/RadiusMine.PackageMetaData'
+[2019.11.06-03.10.44:229][531]LogMetaData: Removing '/Game/RadiusMine.RadiusMine_C:ReceiveTick' ref from Metadata '/Game/Explosive/RadiusMine.PackageMetaData'
+[2019.11.06-03.10.44:230][531]LogMetaData: Removing '/Game/RadiusMine.RadiusMine_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Explosive/RadiusMine.PackageMetaData'
+[2019.11.06-03.10.44:230][531]LogMetaData: Removing '/Game/RadiusMine.RadiusMine_C:UserConstructionScript' ref from Metadata '/Game/Explosive/RadiusMine.PackageMetaData'
+[2019.11.06-03.10.44:257][531]LogMetaData: Removing '/Game/Simple_Explosion.Simple_Explosion:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Explosive/Simple_Explosion.PackageMetaData'
+[2019.11.06-03.10.44:258][531]LogMetaData: Removing '/Game/Simple_Explosion.Simple_Explosion_C' ref from Metadata '/Game/Explosive/Simple_Explosion.PackageMetaData'
+[2019.11.06-03.10.44:258][531]LogMetaData: Removing '/Game/Simple_Explosion.Simple_Explosion:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Explosive/Simple_Explosion.PackageMetaData'
+[2019.11.06-03.10.44:259][531]LogMetaData: Removing '/Game/Simple_Explosion.Simple_Explosion:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Explosive/Simple_Explosion.PackageMetaData'
+[2019.11.06-03.10.44:260][531]LogMetaData: Removing '/Game/Simple_Explosion.Simple_Explosion:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Explosive/Simple_Explosion.PackageMetaData'
+[2019.11.06-03.10.44:260][531]LogMetaData: Removing '/Game/Simple_Explosion.SKEL_Simple_Explosion_C:ReceiveBeginPlay' ref from Metadata '/Game/Explosive/Simple_Explosion.PackageMetaData'
+[2019.11.06-03.10.44:261][531]LogMetaData: Removing '/Game/Simple_Explosion.SKEL_Simple_Explosion_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Explosive/Simple_Explosion.PackageMetaData'
+[2019.11.06-03.10.44:261][531]LogMetaData: Removing '/Game/Simple_Explosion.SKEL_Simple_Explosion_C:ReceiveTick' ref from Metadata '/Game/Explosive/Simple_Explosion.PackageMetaData'
+[2019.11.06-03.10.44:262][531]LogMetaData: Removing '/Game/Simple_Explosion.SKEL_Simple_Explosion_C:DefaultSceneRoot' ref from Metadata '/Game/Explosive/Simple_Explosion.PackageMetaData'
+[2019.11.06-03.10.44:262][531]LogMetaData: Removing '/Game/Simple_Explosion.SKEL_Simple_Explosion_C:RadialForce' ref from Metadata '/Game/Explosive/Simple_Explosion.PackageMetaData'
+[2019.11.06-03.10.44:263][531]LogMetaData: Removing '/Game/Simple_Explosion.SKEL_Simple_Explosion_C:ParticleSystem' ref from Metadata '/Game/Explosive/Simple_Explosion.PackageMetaData'
+[2019.11.06-03.10.44:263][531]LogMetaData: Removing '/Game/Simple_Explosion.SKEL_Simple_Explosion_C:SFX' ref from Metadata '/Game/Explosive/Simple_Explosion.PackageMetaData'
+[2019.11.06-03.10.44:264][531]LogMetaData: Removing '/Game/Simple_Explosion.SKEL_Simple_Explosion_C:UserConstructionScript' ref from Metadata '/Game/Explosive/Simple_Explosion.PackageMetaData'
+[2019.11.06-03.10.44:265][531]LogMetaData: Removing '/Game/Simple_Explosion.SKEL_Simple_Explosion_C' ref from Metadata '/Game/Explosive/Simple_Explosion.PackageMetaData'
+[2019.11.06-03.10.44:265][531]LogMetaData: Removing '/Game/Simple_Explosion.Simple_Explosion_C:DefaultSceneRoot' ref from Metadata '/Game/Explosive/Simple_Explosion.PackageMetaData'
+[2019.11.06-03.10.44:266][531]LogMetaData: Removing '/Game/Simple_Explosion.Simple_Explosion_C:RadialForce' ref from Metadata '/Game/Explosive/Simple_Explosion.PackageMetaData'
+[2019.11.06-03.10.44:266][531]LogMetaData: Removing '/Game/Simple_Explosion.Simple_Explosion_C:ParticleSystem' ref from Metadata '/Game/Explosive/Simple_Explosion.PackageMetaData'
+[2019.11.06-03.10.44:266][531]LogMetaData: Removing '/Game/Simple_Explosion.Simple_Explosion_C:SFX' ref from Metadata '/Game/Explosive/Simple_Explosion.PackageMetaData'
+[2019.11.06-03.10.44:267][531]LogMetaData: Removing '/Game/Simple_Explosion.Simple_Explosion_C:ReceiveBeginPlay' ref from Metadata '/Game/Explosive/Simple_Explosion.PackageMetaData'
+[2019.11.06-03.10.44:384][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Explosive" FILE="C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Explosive.uasset" SILENT=true
+[2019.11.06-03.10.44:510][531]LogSavePackage: Moving 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Explosive1E6523374C519B29509E59B05263E46D.tmp' to 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Explosive.uasset'
+[2019.11.06-03.10.44:530][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Explosive/Explosive" FILE="C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Explosive/Explosive.uasset" SILENT=true
+[2019.11.06-03.10.44:599][531]LogSavePackage: Moving 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/ExplosiveD09E69674F3E869707D4E99F7D49D194.tmp' to 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Explosive/Explosive.uasset'
+[2019.11.06-03.10.44:625][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ExplosiveStates" FILE="C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/ExplosiveStates.uasset" SILENT=true
+[2019.11.06-03.10.44:646][531]LogSavePackage: Moving 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/ExplosiveStates7F6ABDE141EA437363FD9C8C316D9DE7.tmp' to 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/ExplosiveStates.uasset'
+[2019.11.06-03.10.44:701][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GrenadeProjectile" FILE="C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/GrenadeProjectile.uasset" SILENT=true
+[2019.11.06-03.10.44:814][531]LogSavePackage: Moving 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/GrenadeProjectile7BBEC61E452DD2A3E39D6D8FD74FEF8F.tmp' to 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/GrenadeProjectile.uasset'
+[2019.11.06-03.10.44:880][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ImpactGrenade" FILE="C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/ImpactGrenade.uasset" SILENT=true
+[2019.11.06-03.10.44:974][531]LogSavePackage: Moving 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/ImpactGrenade4A53D692452786635622DC891D7DC7B3.tmp' to 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/ImpactGrenade.uasset'
+[2019.11.06-03.10.45:035][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RadiusMine" FILE="C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/RadiusMine.uasset" SILENT=true
+[2019.11.06-03.10.45:195][531]LogSavePackage: Moving 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/RadiusMine2E1D5EE94769C4D2FCDB5BA69DC6CA52.tmp' to 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/RadiusMine.uasset'
+[2019.11.06-03.10.45:215][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Explosive/RadiusMine" FILE="C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Explosive/RadiusMine.uasset" SILENT=true
+[2019.11.06-03.10.45:258][531]LogSavePackage: Moving 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/RadiusMine809F297C4840D3FCB75089B565F6E990.tmp' to 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Explosive/RadiusMine.uasset'
+[2019.11.06-03.10.45:275][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Simple_Explosion" FILE="C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Simple_Explosion.uasset" SILENT=true
+[2019.11.06-03.10.45:355][531]LogSavePackage: Moving 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Simple_Explosion4C5315DF4271B08A4424168F3AAED11E.tmp' to 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Simple_Explosion.uasset'
+[2019.11.06-03.10.45:371][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Explosive/Simple_Explosion" FILE="C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Explosive/Simple_Explosion.uasset" SILENT=true
+[2019.11.06-03.10.45:433][531]LogSavePackage: Moving 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Simple_ExplosionB6AE12994DED04DCA25A05AE3B215DA6.tmp' to 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Explosive/Simple_Explosion.uasset'
+[2019.11.06-03.10.46:021][531]LogUObjectHash: Compacting FUObjectHashTables data took   4.55ms
+[2019.11.06-03.10.46:084][531]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2019.11.06-03.10.46:150][531]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2019.11.06-03.10.46:225][531]LogUObjectHash: Compacting FUObjectHashTables data took   3.92ms
+[2019.11.06-03.10.46:286][531]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2019.11.06-03.10.50:318][659]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2019.11.06-03.11.04:651][659]LogSlate: Window 'Delete Assets' being destroyed
+[2019.11.06-03.11.04:661][659]LogUObjectGlobals: Force Deleting 15 Package(s):
+	Asset Name: /Game/Explosive/Simple_Explosion.Simple_Explosion
+	Asset Name: /Game/Explosive/Simple_Explosion.Default__Simple_Explosion_C
+	Asset Name: /Game/Explosive/Simple_Explosion.Simple_Explosion_C
+	Asset Name: /Game/Explosive/RadiusMine.RadiusMine
+	Asset Name: /Game/Explosive/RadiusMine.Default__RadiusMine_C
+	Asset Name: /Game/Explosive/RadiusMine.RadiusMine_C
+	Asset Name: /Game/Explosive/Explosive.Explosive
+	Asset Name: /Game/Explosive/Explosive.Default__Explosive_C
+	Asset Name: /Game/Explosive/Explosive.Explosive_C
+	Asset Name: /Game/Explosive/ExplosiveReplacment.ExplosiveReplacment_C
+[2019.11.06-03.11.08:731][659]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.11.06-03.11.12:144][659]LogStats: FPlatformStackWalk::StackWalkAndDump -  3.412 s
+[2019.11.06-03.11.12:145][659]LogOutputDevice: Error: === Handled ensure: ===
+[2019.11.06-03.11.12:145][659]LogOutputDevice: Error: 
+[2019.11.06-03.11.12:145][659]LogOutputDevice: Error: Ensure condition failed: Found [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\CoreUObject\Private\Misc\RedirectCollector.cpp] [Line: 198]
+[2019.11.06-03.11.12:145][659]LogOutputDevice: Error: Cannot remove redirection from /Game/Explosive/Grenade.Grenade_C, it was not registered
+[2019.11.06-03.11.12:146][659]LogOutputDevice: Error: Stack: 
+[2019.11.06-03.11.12:146][659]LogOutputDevice: Error: [Callstack] 0x00007ffdffab1711 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.11.06-03.11.12:146][659]LogOutputDevice: Error: [Callstack] 0x00007ffdff7a9887 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.11.06-03.11.12:147][659]LogOutputDevice: Error: [Callstack] 0x00007ffe016cddbd UE4Editor-AssetRegistry.dll!UnknownFunction []
+[2019.11.06-03.11.12:147][659]LogOutputDevice: Error: [Callstack] 0x00007ffdd1a93d25 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.06-03.11.12:147][659]LogOutputDevice: Error: [Callstack] 0x00007ffdd1a9e077 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.06-03.11.12:148][659]LogOutputDevice: Error: [Callstack] 0x00007ffdd12fe42f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.06-03.11.12:148][659]LogOutputDevice: Error: [Callstack] 0x00007ffdd155f488 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.06-03.11.12:148][659]LogOutputDevice: Error: [Callstack] 0x00007ffdd15597c4 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.06-03.11.12:148][659]LogOutputDevice: Error: [Callstack] 0x00007ffdd2a82a12 UE4Editor-Slate.dll!UnknownFunction []
+[2019.11.06-03.11.12:149][659]LogOutputDevice: Error: [Callstack] 0x00007ffdd28d4021 UE4Editor-Slate.dll!UnknownFunction []
+[2019.11.06-03.11.12:149][659]LogOutputDevice: Error: [Callstack] 0x00007ffdd2950301 UE4Editor-Slate.dll!UnknownFunction []
+[2019.11.06-03.11.12:150][659]LogOutputDevice: Error: [Callstack] 0x00007ffdd293aaca UE4Editor-Slate.dll!UnknownFunction []
+[2019.11.06-03.11.12:150][659]LogOutputDevice: Error: [Callstack] 0x00007ffdd2930414 UE4Editor-Slate.dll!UnknownFunction []
+[2019.11.06-03.11.12:150][659]LogOutputDevice: Error: [Callstack] 0x00007ffe13e1b8e0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.11.06-03.11.12:151][659]LogOutputDevice: Error: [Callstack] 0x00007ffe13e0ef9f UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.11.06-03.11.12:151][659]LogOutputDevice: Error: [Callstack] 0x00007ffe13e1d77f UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.11.06-03.11.12:151][659]LogOutputDevice: Error: [Callstack] 0x00007ffe13e0c090 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.11.06-03.11.12:151][659]LogOutputDevice: Error: [Callstack] 0x00007ffe288363ed USER32.dll!UnknownFunction []
+[2019.11.06-03.11.12:152][659]LogOutputDevice: Error: [Callstack] 0x00007ffe28835de2 USER32.dll!UnknownFunction []
+[2019.11.06-03.11.12:152][659]LogOutputDevice: Error: [Callstack] 0x00007ffe13e1e899 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.11.06-03.11.12:152][659]LogOutputDevice: Error: [Callstack] 0x00007ffdd295aa95 UE4Editor-Slate.dll!UnknownFunction []
+[2019.11.06-03.11.12:153][659]LogOutputDevice: Error: [Callstack] 0x00007ffdd290012f UE4Editor-Slate.dll!UnknownFunction []
+[2019.11.06-03.11.12:153][659]LogOutputDevice: Error: [Callstack] 0x00007ffdd15e2ce6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.06-03.11.12:153][659]LogOutputDevice: Error: [Callstack] 0x00007ffdd1a92fd5 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.06-03.11.12:154][659]LogOutputDevice: Error: [Callstack] 0x00007ffdbfab4851 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.11.06-03.11.12:154][659]LogOutputDevice: Error: [Callstack] 0x00007ffdbfabe5de UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.11.06-03.11.12:154][659]LogOutputDevice: Error: [Callstack] 0x00007ffdbfaba30f UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.11.06-03.11.12:155][659]LogOutputDevice: Error: [Callstack] 0x00007ffdbfb1120c UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.11.06-03.11.12:155][659]LogOutputDevice: Error: [Callstack] 0x00007ffdbfabb3f4 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.11.06-03.11.12:155][659]LogOutputDevice: Error: [Callstack] 0x00007ffdd2a82a12 UE4Editor-Slate.dll!UnknownFunction []
+[2019.11.06-03.11.12:156][659]LogOutputDevice: Error: [Callstack] 0x00007ffdd28d4021 UE4Editor-Slate.dll!UnknownFunction []
+[2019.11.06-03.11.12:156][659]LogOutputDevice: Error: [Callstack] 0x00007ffdd2950301 UE4Editor-Slate.dll!UnknownFunction []
+[2019.11.06-03.11.12:156][659]LogOutputDevice: Error: [Callstack] 0x00007ffdd293aaca UE4Editor-Slate.dll!UnknownFunction []
+[2019.11.06-03.11.12:157][659]LogOutputDevice: Error: [Callstack] 0x00007ffdd2930414 UE4Editor-Slate.dll!UnknownFunction []
+[2019.11.06-03.11.12:157][659]LogOutputDevice: Error: [Callstack] 0x00007ffe13e1b8e0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.11.06-03.11.12:157][659]LogOutputDevice: Error: [Callstack] 0x00007ffe13e0ef9f UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.11.06-03.11.12:158][659]LogOutputDevice: Error: [Callstack] 0x00007ffe13e1d77f UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.11.06-03.11.12:158][659]LogOutputDevice: Error: [Callstack] 0x00007ffe13e0c090 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.11.06-03.11.12:158][659]LogOutputDevice: Error: [Callstack] 0x00007ffe288363ed USER32.dll!UnknownFunction []
+[2019.11.06-03.11.12:159][659]LogOutputDevice: Error: [Callstack] 0x00007ffe28835de2 USER32.dll!UnknownFunction []
+[2019.11.06-03.11.12:159][659]LogOutputDevice: Error: [Callstack] 0x00007ffe13e1e946 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.11.06-03.11.12:159][659]LogOutputDevice: Error: [Callstack] 0x00007ff7b1b65d3e UE4Editor.exe!UnknownFunction []
+[2019.11.06-03.11.12:159][659]LogOutputDevice: Error: [Callstack] 0x00007ff7b1b7554c UE4Editor.exe!UnknownFunction []
+[2019.11.06-03.11.12:160][659]LogOutputDevice: Error: [Callstack] 0x00007ff7b1b755ca UE4Editor.exe!UnknownFunction []
+[2019.11.06-03.11.12:160][659]LogOutputDevice: Error: [Callstack] 0x00007ff7b1b8316c UE4Editor.exe!UnknownFunction []
+[2019.11.06-03.11.12:160][659]LogOutputDevice: Error: [Callstack] 0x00007ff7b1b85b8e UE4Editor.exe!UnknownFunction []
+[2019.11.06-03.11.12:160][659]LogOutputDevice: Error: [Callstack] 0x00007ffe27757bd4 KERNEL32.DLL!UnknownFunction []
+[2019.11.06-03.11.12:161][659]LogOutputDevice: Error: [Callstack] 0x00007ffe2924ced1 ntdll.dll!UnknownFunction []
+[2019.11.06-03.11.12:161][659]LogOutputDevice: Error: 
+[2019.11.06-03.11.12:172][659]LogStats:                SubmitErrorReport -  0.000 s
+[2019.11.06-03.11.13:929][659]LogStats:                    SendNewReport -  1.756 s
+[2019.11.06-03.11.13:929][659]LogStats:             FDebug::EnsureFailed -  5.198 s
+[2019.11.06-03.11.15:357][659]LogUObjectHash: Compacting FUObjectHashTables data took   4.67ms
+[2019.11.06-03.11.15:420][659]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2019.11.06-03.11.15:480][659]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2019.11.06-03.11.15:544][659]LogUObjectHash: Compacting FUObjectHashTables data took   4.68ms
+[2019.11.06-03.11.15:602][659]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2019.11.06-03.11.21:640][918]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.06-03.11.28:028][139]LogMetaData: Removing '/Game/Explosive/ExplosiveStates.ExplosiveStates' ref from Metadata '/Game/ExplosiveStates.PackageMetaData'
+[2019.11.06-03.11.28:042][139]LogMetaData: Removing '/Game/Explosive/Grenade.Grenade_C' ref from Metadata '/Game/Grenade.PackageMetaData'
+[2019.11.06-03.11.28:042][139]LogMetaData: Removing '/Game/Explosive/Grenade.Grenade:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Grenade.PackageMetaData'
+[2019.11.06-03.11.28:043][139]LogMetaData: Removing '/Game/Explosive/Grenade.Grenade:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Grenade.PackageMetaData'
+[2019.11.06-03.11.28:043][139]LogMetaData: Removing '/Game/Explosive/Grenade.SKEL_Grenade_C:ReceiveBeginPlay' ref from Metadata '/Game/Grenade.PackageMetaData'
+[2019.11.06-03.11.28:044][139]LogMetaData: Removing '/Game/Explosive/Grenade.SKEL_Grenade_C:ReceiveTick' ref from Metadata '/Game/Grenade.PackageMetaData'
+[2019.11.06-03.11.28:044][139]LogMetaData: Removing '/Game/Explosive/Grenade.SKEL_Grenade_C:FuzeTime' ref from Metadata '/Game/Grenade.PackageMetaData'
+[2019.11.06-03.11.28:045][139]LogMetaData: Removing '/Game/Explosive/Grenade.SKEL_Grenade_C:UserConstructionScript' ref from Metadata '/Game/Grenade.PackageMetaData'
+[2019.11.06-03.11.28:045][139]LogMetaData: Removing '/Game/Explosive/Grenade.SKEL_Grenade_C' ref from Metadata '/Game/Grenade.PackageMetaData'
+[2019.11.06-03.11.28:045][139]LogMetaData: Removing '/Game/Explosive/Grenade.Grenade_C:FuzeTime' ref from Metadata '/Game/Grenade.PackageMetaData'
+[2019.11.06-03.11.28:046][139]LogMetaData: Removing '/Game/Explosive/Grenade.Grenade_C:ReceiveTick' ref from Metadata '/Game/Grenade.PackageMetaData'
+[2019.11.06-03.11.28:046][139]LogMetaData: Removing '/Game/Explosive/Grenade.Grenade_C:ReceiveBeginPlay' ref from Metadata '/Game/Grenade.PackageMetaData'
+[2019.11.06-03.11.28:047][139]LogMetaData: Removing '/Game/Explosive/Grenade.Grenade_C:UserConstructionScript' ref from Metadata '/Game/Grenade.PackageMetaData'
+[2019.11.06-03.11.28:067][139]LogMetaData: Removing '/Game/Explosive/GrenadeProjectile.GrenadeProjectile_C' ref from Metadata '/Game/GrenadeProjectile.PackageMetaData'
+[2019.11.06-03.11.28:067][139]LogMetaData: Removing '/Game/Explosive/GrenadeProjectile.GrenadeProjectile_C:ProjectileMovement' ref from Metadata '/Game/GrenadeProjectile.PackageMetaData'
+[2019.11.06-03.11.28:068][139]LogMetaData: Removing '/Game/Explosive/GrenadeProjectile.SKEL_GrenadeProjectile_C' ref from Metadata '/Game/GrenadeProjectile.PackageMetaData'
+[2019.11.06-03.11.28:068][139]LogMetaData: Removing '/Game/Explosive/GrenadeProjectile.SKEL_GrenadeProjectile_C:ReceiveBeginPlay' ref from Metadata '/Game/GrenadeProjectile.PackageMetaData'
+[2019.11.06-03.11.28:069][139]LogMetaData: Removing '/Game/Explosive/GrenadeProjectile.SKEL_GrenadeProjectile_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/GrenadeProjectile.PackageMetaData'
+[2019.11.06-03.11.28:069][139]LogMetaData: Removing '/Game/Explosive/GrenadeProjectile.SKEL_GrenadeProjectile_C:ReceiveTick' ref from Metadata '/Game/GrenadeProjectile.PackageMetaData'
+[2019.11.06-03.11.28:070][139]LogMetaData: Removing '/Game/Explosive/GrenadeProjectile.SKEL_GrenadeProjectile_C:ProjectileMovement' ref from Metadata '/Game/GrenadeProjectile.PackageMetaData'
+[2019.11.06-03.11.28:070][139]LogMetaData: Removing '/Game/Explosive/GrenadeProjectile.SKEL_GrenadeProjectile_C:UserConstructionScript' ref from Metadata '/Game/GrenadeProjectile.PackageMetaData'
+[2019.11.06-03.11.28:071][139]LogMetaData: Removing '/Game/Explosive/GrenadeProjectile.GrenadeProjectile:EventGraph.K2Node_Event_0' ref from Metadata '/Game/GrenadeProjectile.PackageMetaData'
+[2019.11.06-03.11.28:071][139]LogMetaData: Removing '/Game/Explosive/GrenadeProjectile.GrenadeProjectile:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/GrenadeProjectile.PackageMetaData'
+[2019.11.06-03.11.28:072][139]LogMetaData: Removing '/Game/Explosive/GrenadeProjectile.GrenadeProjectile:EventGraph.K2Node_Event_1' ref from Metadata '/Game/GrenadeProjectile.PackageMetaData'
+[2019.11.06-03.11.28:073][139]LogMetaData: Removing '/Game/Explosive/GrenadeProjectile.GrenadeProjectile:EventGraph.K2Node_Event_2' ref from Metadata '/Game/GrenadeProjectile.PackageMetaData'
+[2019.11.06-03.11.28:073][139]LogMetaData: Removing '/Game/Explosive/GrenadeProjectile.GrenadeProjectile:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/GrenadeProjectile.PackageMetaData'
+[2019.11.06-03.11.28:074][139]LogMetaData: Removing '/Game/Explosive/GrenadeProjectile.GrenadeProjectile:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/GrenadeProjectile.PackageMetaData'
+[2019.11.06-03.11.28:085][139]LogMetaData: Removing '/Game/Explosive/ImpactGrenade.ImpactGrenade_C' ref from Metadata '/Game/ImpactGrenade.PackageMetaData'
+[2019.11.06-03.11.28:086][139]LogMetaData: Removing '/Game/Explosive/ImpactGrenade.ImpactGrenade_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/ImpactGrenade.PackageMetaData'
+[2019.11.06-03.11.28:086][139]LogMetaData: Removing '/Game/Explosive/ImpactGrenade.ImpactGrenade_C:UserConstructionScript' ref from Metadata '/Game/ImpactGrenade.PackageMetaData'
+[2019.11.06-03.11.28:087][139]LogMetaData: Removing '/Game/Explosive/ImpactGrenade.SKEL_ImpactGrenade_C' ref from Metadata '/Game/ImpactGrenade.PackageMetaData'
+[2019.11.06-03.11.28:088][139]LogMetaData: Removing '/Game/Explosive/ImpactGrenade.SKEL_ImpactGrenade_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/ImpactGrenade.PackageMetaData'
+[2019.11.06-03.11.28:089][139]LogMetaData: Removing '/Game/Explosive/ImpactGrenade.SKEL_ImpactGrenade_C:UserConstructionScript' ref from Metadata '/Game/ImpactGrenade.PackageMetaData'
+[2019.11.06-03.11.28:089][139]LogMetaData: Removing '/Game/Explosive/ImpactGrenade.ImpactGrenade:EventGraph.K2Node_Event_1' ref from Metadata '/Game/ImpactGrenade.PackageMetaData'
+[2019.11.06-03.11.28:090][139]LogMetaData: Removing '/Game/Explosive/ImpactGrenade.ImpactGrenade:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/ImpactGrenade.PackageMetaData'
+[2019.11.06-03.11.28:170][139]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Explosive/ExplosiveStates" FILE="C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Explosive/ExplosiveStates.uasset" SILENT=true
+[2019.11.06-03.11.28:189][139]LogSavePackage: Moving 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/ExplosiveStates6BACE9994680B5437EB6FAA055016C8B.tmp' to 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Explosive/ExplosiveStates.uasset'
+[2019.11.06-03.11.28:236][139]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Explosive/Grenade" FILE="C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Explosive/Grenade.uasset" SILENT=true
+[2019.11.06-03.11.28:346][139]LogSavePackage: Moving 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/GrenadeD3DC648546AD6959A9C0EE8268654394.tmp' to 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Explosive/Grenade.uasset'
+[2019.11.06-03.11.28:365][139]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Grenade" FILE="C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Grenade.uasset" SILENT=true
+[2019.11.06-03.11.28:437][139]LogSavePackage: Moving 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/GrenadeB375E2B84D939C3C0BEAE9BF6F965ED1.tmp' to 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Grenade.uasset'
+[2019.11.06-03.11.28:488][139]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Explosive/GrenadeProjectile" FILE="C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Explosive/GrenadeProjectile.uasset" SILENT=true
+[2019.11.06-03.11.28:582][139]LogSavePackage: Moving 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/GrenadeProjectile3BD25D67441E21E00D937BA6218E78E9.tmp' to 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Explosive/GrenadeProjectile.uasset'
+[2019.11.06-03.11.28:641][139]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Explosive/ImpactGrenade" FILE="C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Explosive/ImpactGrenade.uasset" SILENT=true
+[2019.11.06-03.11.28:752][139]LogSavePackage: Moving 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/ImpactGrenade12F550F349A82166EBB58690FCB8884E.tmp' to 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Explosive/ImpactGrenade.uasset'
+[2019.11.06-03.11.29:544][139]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2019.11.06-03.11.29:605][139]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2019.11.06-03.11.29:672][139]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2019.11.06-03.11.29:753][139]LogUObjectHash: Compacting FUObjectHashTables data took   5.62ms
+[2019.11.06-03.11.29:819][139]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2019.11.06-03.11.29:867][139]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Explosive/Explosive" FILE="C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Explosive/Explosive.uasset" SILENT=true
+[2019.11.06-03.11.29:918][139]LogSavePackage: Moving 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Explosive7876FEBA4C027704BC00BCBE029EA847.tmp' to 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Explosive/Explosive.uasset'
+[2019.11.06-03.11.29:935][139]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Explosive/RadiusMine" FILE="C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Explosive/RadiusMine.uasset" SILENT=true
+[2019.11.06-03.11.29:984][139]LogSavePackage: Moving 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/RadiusMineC4990CFF4484B3BAB82CBEB0D825D593.tmp' to 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Explosive/RadiusMine.uasset'
+[2019.11.06-03.11.29:999][139]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Explosive/Simple_Explosion" FILE="C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Explosive/Simple_Explosion.uasset" SILENT=true
+[2019.11.06-03.11.30:041][139]LogSavePackage: Moving 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Simple_ExplosionD7850EBD498E850C1F3C6E8EC1150F66.tmp' to 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Explosive/Simple_Explosion.uasset'
+[2019.11.06-03.11.30:284][139]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Explosive/Explosive.Explosive'
+[2019.11.06-03.11.30:287][139]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Explosive/RadiusMine.RadiusMine'
+[2019.11.06-03.11.30:290][139]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Explosive/Simple_Explosion.Simple_Explosion'
+[2019.11.06-03.11.30:293][139]DataValidation: Error: /Game/Explosive/Explosive contains invalid data.
+[2019.11.06-03.11.30:293][139]DataValidation: Error: /Game/Explosive/Explosive contains invalid data.
+[2019.11.06-03.11.30:294][139]DataValidation: Error: /Game/Explosive/Explosive contains invalid data.
+[2019.11.06-03.11.30:294][139]DataValidation: Error: /Game/Explosive/RadiusMine contains invalid data.
+[2019.11.06-03.11.30:294][139]DataValidation: Error: /Game/Explosive/RadiusMine contains invalid data.
+[2019.11.06-03.11.30:295][139]DataValidation: Error: /Game/Explosive/RadiusMine contains invalid data.
+[2019.11.06-03.11.30:295][139]DataValidation: Error: /Game/Explosive/Simple_Explosion contains invalid data.
+[2019.11.06-03.11.30:296][139]DataValidation: Error: /Game/Explosive/Simple_Explosion contains invalid data.
+[2019.11.06-03.11.30:296][139]DataValidation: Error: /Game/Explosive/Simple_Explosion contains invalid data.
+[2019.11.06-03.11.30:296][139]DataValidation: Error: Data validation FAILED. Files Checked: 16, Passed: 3, Failed: 9, Skipped: 0, Unable to validate: 4
+[2019.11.06-03.11.35:831][331]LogSlate: Window 'Failed Renames' being destroyed
+[2019.11.06-03.11.46:396][679]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Explosive.Explosive
+[2019.11.06-03.11.47:268][679]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0019 seconds. Added 121 classes and 0 folders.
+[2019.11.06-03.11.49:953][679]LogSlate: Took 0.000534 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.11.06-03.11.50:409][680]LogSlate: Took 0.285101 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.11.06-03.11.52:960][710]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/RadiusMine.RadiusMine
+[2019.11.06-03.12.08:459][ 88]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RadiusMine" FILE="C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/RadiusMine.uasset" SILENT=true
+[2019.11.06-03.12.08:650][ 88]LogSavePackage: Moving 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/RadiusMine3A181AFE4F0B6CDD06B551B9794D5074.tmp' to 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/RadiusMine.uasset'
+[2019.11.06-03.12.08:704][ 88]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Explosive/Grenade" FILE="C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Explosive/Grenade.uasset" SILENT=true
+[2019.11.06-03.12.08:858][ 88]LogSavePackage: Moving 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Grenade55B667CE4B0874853C435E81A7492A7D.tmp' to 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Explosive/Grenade.uasset'
+[2019.11.06-03.12.08:916][ 88]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Explosive/ImpactGrenade" FILE="C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Explosive/ImpactGrenade.uasset" SILENT=true
+[2019.11.06-03.12.09:041][ 88]LogSavePackage: Moving 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/ImpactGrenade18A9BDB3438EE5E67D56629E29FD2154.tmp' to 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Explosive/ImpactGrenade.uasset'
+[2019.11.06-03.12.19:913][359]LogSlate: Window 'Failed Renames' being destroyed
+[2019.11.06-03.12.23:766][438]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Explosive/Grenade.Grenade
+[2019.11.06-03.12.53:108][167]LogUObjectHash: Compacting FUObjectHashTables data took   9.72ms
+[2019.11.06-03.12.57:359][167]LogSlate: Window 'Save Content' being destroyed
+[2019.11.06-03.12.57:528][167]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2019.11.06-03.12.58:561][167]LogSavePackage: Moving 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/FirstPersonExampleMap27295F8C4A26E2057EACFB91FA7FAD00.tmp' to 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2019.11.06-03.12.58:681][167]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 1.250
+[2019.11.06-03.12.58:720][167]LogLinker: Warning: Can't find file '/Game/ExplosiveStates'
+[2019.11.06-03.12.58:721][167]LogLinker: Warning: Can't find file for asset '/Game/ExplosiveStates' while loading NULL.
+[2019.11.06-03.12.58:752][167]LogLinker: Warning: Can't find file '/Game/ExplosiveStates'
+[2019.11.06-03.12.58:753][167]LogLinker: Warning: Can't find file for asset '/Game/ExplosiveStates' while loading NULL.
+[2019.11.06-03.13.21:697][778]LogSlate: Window 'Advanced Copy Asset Report' being destroyed
+[2019.11.06-03.13.21:780][778]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.11.06-03.13.21:781][778]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2019.11.06-03.13.25:093][778]LogWindows: Error: === Critical error: ===
+[2019.11.06-03.13.25:093][778]LogWindows: Error: 
+[2019.11.06-03.13.25:093][778]LogWindows: Error: Fatal error: [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\UObjectGlobals.cpp] [Line: 2313] 
+[2019.11.06-03.13.25:093][778]LogWindows: Error: Objects have the same fully qualified name but different paths.
+[2019.11.06-03.13.25:093][778]LogWindows: Error: 	New Object: BlueprintGeneratedClass /Game/Explosive/Explosive.SKEL_Explosive_C
+[2019.11.06-03.13.25:093][778]LogWindows: Error: 	Existing Object: ObjectRedirector /Game/Explosive/Explosive.SKEL_Explosive_C
+[2019.11.06-03.13.25:093][778]LogWindows: Error: 
+[2019.11.06-03.13.25:093][778]LogWindows: Error: 
+[2019.11.06-03.13.25:093][778]LogWindows: Error: [Callstack] 0x00007ffe261da839 KERNELBASE.dll!UnknownFunction []
+[2019.11.06-03.13.25:093][778]LogWindows: Error: [Callstack] 0x00007ffdd3231f37 UE4Editor-Core.dll!UnknownFunction []
+[2019.11.06-03.13.25:094][778]LogWindows: Error: [Callstack] 0x00007ffdd32346e7 UE4Editor-Core.dll!UnknownFunction []
+[2019.11.06-03.13.25:094][778]LogWindows: Error: [Callstack] 0x00007ffdd3047d1a UE4Editor-Core.dll!UnknownFunction []
+[2019.11.06-03.13.25:094][778]LogWindows: Error: [Callstack] 0x00007ffdd2fcfe33 UE4Editor-Core.dll!UnknownFunction []
+[2019.11.06-03.13.25:094][778]LogWindows: Error: [Callstack] 0x00007ffdd2fcfd18 UE4Editor-Core.dll!UnknownFunction []
+[2019.11.06-03.13.25:094][778]LogWindows: Error: [Callstack] 0x00007ffdffa18801 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.11.06-03.13.25:094][778]LogWindows: Error: [Callstack] 0x00007ffdffa1a4ef UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.11.06-03.13.25:094][778]LogWindows: Error: [Callstack] 0x00007ffdca97637e UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2019.11.06-03.13.25:094][778]LogWindows: Error: [Callstack] 0x00007ffdcbc992f4 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.11.06-03.13.25:094][778]LogWindows: Error: [Callstack] 0x00007ffdcbc9defb UE4Editor-Kismet.dll!UnknownFunction []
+[2019.11.06-03.13.25:094][778]LogWindows: Error: [Callstack] 0x00007ffdcbc520f6 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.11.06-03.13.25:094][778]LogWindows: Error: [Callstack] 0x00007ffdd198bfe3 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.06-03.13.25:094][778]LogWindows: Error: [Callstack] 0x00007ffdce1b3abc UE4Editor-Engine.dll!UnknownFunction []
+[2019.11.06-03.13.25:094][778]LogWindows: Error: [Callstack] 0x00007ffdffa1bba5 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.11.06-03.13.25:094][778]LogWindows: Error: [Callstack] 0x00007ffdffa1ae3e UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.11.06-03.13.25:094][778]LogWindows: Error: [Callstack] 0x00007ffdd1a97f81 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.06-03.13.25:094][778]LogWindows: Error: [Callstack] 0x00007ffdc0c249ce UE4Editor-AssetTools.dll!UnknownFunction []
+[2019.11.06-03.13.25:094][778]LogWindows: Error: [Callstack] 0x00007ffdc0c24332 UE4Editor-AssetTools.dll!UnknownFunction []
+[2019.11.06-03.13.25:095][778]LogWindows: Error: [Callstack] 0x00007ffdc0c26394 UE4Editor-AssetTools.dll!UnknownFunction []
+[2019.11.06-03.13.25:095][778]LogWindows: Error: [Callstack] 0x00007ffdc0c5d0ad UE4Editor-AssetTools.dll!UnknownFunction []
+[2019.11.06-03.13.25:095][778]LogWindows: Error: [Callstack] 0x00007ffdc0c98d6e UE4Editor-AssetTools.dll!UnknownFunction []
+[2019.11.06-03.13.25:095][778]LogWindows: Error: [Callstack] 0x00007ffdc0c50734 UE4Editor-AssetTools.dll!UnknownFunction []
+[2019.11.06-03.13.25:095][778]LogWindows: Error: [Callstack] 0x00007ffdd2a82a12 UE4Editor-Slate.dll!UnknownFunction []
+[2019.11.06-03.13.25:095][778]LogWindows: Error: [Callstack] 0x00007ffdd28d4021 UE4Editor-Slate.dll!UnknownFunction []
+[2019.11.06-03.13.25:095][778]LogWindows: Error: [Callstack] 0x00007ffdd2950301 UE4Editor-Slate.dll!UnknownFunction []
+[2019.11.06-03.13.25:095][778]LogWindows: Error: [Callstack] 0x00007ffdd293aaca UE4Editor-Slate.dll!UnknownFunction []
+[2019.11.06-03.13.25:095][778]LogWindows: Error: [Callstack] 0x00007ffdd2930414 UE4Editor-Slate.dll!UnknownFunction []
+[2019.11.06-03.13.25:095][778]LogWindows: Error: [Callstack] 0x00007ffe13e1b8e0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.11.06-03.13.25:095][778]LogWindows: Error: [Callstack] 0x00007ffe13e0ef9f UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.11.06-03.13.25:095][778]LogWindows: Error: [Callstack] 0x00007ffe13e1d77f UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.11.06-03.13.25:095][778]LogWindows: Error: [Callstack] 0x00007ffe13e0c090 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.11.06-03.13.25:095][778]LogWindows: Error: [Callstack] 0x00007ffe288363ed USER32.dll!UnknownFunction []
+[2019.11.06-03.13.25:095][778]LogWindows: Error: [Callstack] 0x00007ffe28835de2 USER32.dll!UnknownFunction []
+[2019.11.06-03.13.25:095][778]LogWindows: Error: [Callstack] 0x00007ffe13e1e946 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.11.06-03.13.25:095][778]LogWindows: Error: [Callstack] 0x00007ff7b1b65d3e UE4Editor.exe!UnknownFunction []
+[2019.11.06-03.13.25:095][778]LogWindows: Error: [Callstack] 0x00007ff7b1b7554c UE4Editor.exe!UnknownFunction []
+[2019.11.06-03.13.25:095][778]LogWindows: Error: [Callstack] 0x00007ff7b1b755ca UE4Editor.exe!UnknownFunction []
+[2019.11.06-03.13.25:096][778]LogWindows: Error: [Callstack] 0x00007ff7b1b8316c UE4Editor.exe!UnknownFunction []
+[2019.11.06-03.13.25:096][778]LogWindows: Error: [Callstack] 0x00007ff7b1b85b8e UE4Editor.exe!UnknownFunction []
+[2019.11.06-03.13.25:096][778]LogWindows: Error: [Callstack] 0x00007ffe27757bd4 KERNEL32.DLL!UnknownFunction []
+[2019.11.06-03.13.25:096][778]LogWindows: Error: [Callstack] 0x00007ffe2924ced1 ntdll.dll!UnknownFunction []
+[2019.11.06-03.13.25:096][778]LogWindows: Error: 
+[2019.11.06-03.13.25:128][778]LogExit: Executing StaticShutdownAfterError
+[2019.11.06-03.13.25:138][778]LogWindows: FPlatformMisc::RequestExit(1)
+[2019.11.06-03.13.25:151][778]Log file closed, 11/05/19 19:13:25
