@@ -2305,3 +2305,776 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.20-07.26.49:194][167]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
 [2019.11.20-07.26.49:285][167]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
 [2019.11.20-07.26.57:929][242]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.20-07.29.07:487][366]LogUObjectHash: Compacting FUObjectHashTables data took  15.37ms
+[2019.11.20-07.29.08:983][387]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Kits/Portal/Portal_BP_Base_Contained.Portal_BP_Base_Contained
+[2019.11.20-07.29.12:390][424]BlueprintLog: New page: Compile Portal_BP_Base
+[2019.11.20-07.29.13:190][424]LogUObjectHash: Compacting FUObjectHashTables data took  10.49ms
+[2019.11.20-07.29.21:292][565]LogSlate: Took 0.014957 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.11.20-07.29.37:906][995]LogAssetEditorManager: Opening Asset editor for TextureRenderTarget2D /Game/Kits/Portal/Portal_RT_1.Portal_RT_1
+[2019.11.20-07.29.38:280][995]LogBlueprintActionDatabase: Requesting refresh due to module change: TextureEditor (loaded)
+[2019.11.20-07.29.38:282][995]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0018 seconds. Added 1 classes and 2 folders.
+[2019.11.20-07.29.49:384][167]BlueprintLog: New page: Compile Portal_BP_Base_Contained
+[2019.11.20-07.29.50:210][167]LogUObjectHash: Compacting FUObjectHashTables data took  17.36ms
+[2019.11.20-07.30.28:449][971]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'UKismetRenderingLibrary::CreateRenderTarget2D' [Element not found.]
+[2019.11.20-07.30.39:188][221]BlueprintLog: New page: Compile Portal_BP_Base_Contained
+[2019.11.20-07.30.39:922][221]LogUObjectHash: Compacting FUObjectHashTables data took  14.26ms
+[2019.11.20-07.31.30:528][435]BlueprintLog: New page: Compile Portal_BP_Base_Contained
+[2019.11.20-07.31.31:251][435]LogUObjectHash: Compacting FUObjectHashTables data took  15.00ms
+[2019.11.20-07.31.45:934][816]BlueprintLog: New page: Compile Portal_BP_Base_Contained
+[2019.11.20-07.31.46:600][816]LogUObjectHash: Compacting FUObjectHashTables data took  12.07ms
+[2019.11.20-07.32.49:271][ 85]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Kits/Portal/Portal_Mat_2.Portal_Mat_2
+[2019.11.20-07.33.29:326][958]BlueprintLog: New page: Compile Portal_BP_Base_Contained
+[2019.11.20-07.33.30:031][958]LogUObjectHash: Compacting FUObjectHashTables data took  11.46ms
+[2019.11.20-07.34.30:442][458]BlueprintLog: New page: Compile Portal_BP_Base_Contained
+[2019.11.20-07.34.31:193][458]LogUObjectHash: Compacting FUObjectHashTables data took  14.88ms
+[2019.11.20-07.34.44:751][746]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Kits/Portal/Portal_Mat_1.Portal_Mat_1
+[2019.11.20-07.35.03:988][157]BlueprintLog: New page: Compile Portal_BP_Base_Contained
+[2019.11.20-07.35.04:697][157]LogUObjectHash: Compacting FUObjectHashTables data took  13.23ms
+[2019.11.20-07.35.57:418][304]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Kits/Portal/Portal_Mat_2.Portal_Mat_2
+[2019.11.20-07.36.17:262][653]LogAssetEditorManager: Opening Asset editor for Material /Game/Kits/Portal/Portal_Mat.Portal_Mat
+[2019.11.20-07.36.17:273][653]LogMaterial: Display: Missing cached shader map for material Portal_Mat, compiling. 
+[2019.11.20-07.36.17:572][653]LogMaterial: Display: Missing cached shader map for material Portal_Mat, compiling. 
+[2019.11.20-07.36.17:593][653]LogMaterial: Display: Missing cached shader map for material Portal_Mat, compiling. 
+[2019.11.20-07.36.17:653][653]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2019.11.20-07.36.17:810][653]LogMaterial: Display: Missing cached shader map for material Portal_Mat, compiling. 
+[2019.11.20-07.36.22:649][718]MaterialEditorStats: Base pass shader without light map: 34 instructions
+[2019.11.20-07.36.22:650][718]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.11.20-07.36.22:650][718]MaterialEditorStats: Texture samplers: 1/16
+[2019.11.20-07.36.22:650][718]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.20-07.36.22:651][718]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.20-07.36.25:022][752]LogMaterial: Display: Missing cached shader map for material Portal_Mat, compiling. 
+[2019.11.20-07.36.25:055][752]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2019.11.20-07.36.25:107][752]LogMaterial: Display: Missing cached shader map for material Portal_Mat, compiling. 
+[2019.11.20-07.36.25:140][752]LogMaterial: Display: Missing cached shader map for material Portal_Mat, compiling. 
+[2019.11.20-07.36.25:949][765]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.20-07.36.26:707][773]LogMaterial: Display: Missing cached shader map for material Portal_Mat, compiling. 
+[2019.11.20-07.36.26:733][773]LogMaterialEditor: Applying material Portal_Mat
+[2019.11.20-07.36.32:338][773]LogMaterial: Display: Missing cached shader map for material Portal_Mat, compiling. 
+[2019.11.20-07.36.32:427][773]LogMaterial: Display: Missing cached shader map for material Portal_Mat, compiling. 
+[2019.11.20-07.36.32:479][773]LogMaterial: Display: Missing cached shader map for material Portal_Mat, compiling. 
+[2019.11.20-07.36.32:749][773]LogUObjectHash: Compacting FUObjectHashTables data took  15.98ms
+[2019.11.20-07.36.32:785][773]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.20-07.36.33:690][773]TextureStreamingBuild: Display: Compiling optional shaders took 0.940 seconds.
+[2019.11.20-07.36.33:821][773]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2019.11.20-07.36.34:724][783]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2019.11.20-07.36.34:920][783]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
+[2019.11.20-07.36.36:316][783]LogSavePackage: Moving 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/FirstPersonExampleMap91ED47364EBDAB1FD9D473948EDF2C77.tmp' to 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2019.11.20-07.36.36:488][783]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 1.713
+[2019.11.20-07.36.36:556][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kits/Portal/Portal_BP_1" FILE="C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Kits/Portal/Portal_BP_1.uasset" SILENT=true
+[2019.11.20-07.36.36:697][783]LogSavePackage: Moving 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Portal_BP_106C2DE9B4BCC5ADE21131A86650E502A.tmp' to 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Kits/Portal/Portal_BP_1.uasset'
+[2019.11.20-07.36.36:765][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kits/Portal/Portal_BP_Base" FILE="C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Kits/Portal/Portal_BP_Base.uasset" SILENT=true
+[2019.11.20-07.36.37:008][783]LogSavePackage: Moving 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Portal_BP_Base0A1CB93547A90925811494AE32E3448B.tmp' to 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Kits/Portal/Portal_BP_Base.uasset'
+[2019.11.20-07.36.37:072][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kits/Portal/Portal_Mat" FILE="C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Kits/Portal/Portal_Mat.uasset" SILENT=true
+[2019.11.20-07.36.37:248][783]LogSavePackage: Moving 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Portal_Mat931CA7D24A3532FC53EFA4BD81DBF1F1.tmp' to 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Kits/Portal/Portal_Mat.uasset'
+[2019.11.20-07.36.37:312][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kits/Portal/Portal_BP_2" FILE="C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Kits/Portal/Portal_BP_2.uasset" SILENT=true
+[2019.11.20-07.36.37:491][783]LogSavePackage: Moving 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Portal_BP_21D947CEB4BF39BBD87FC0DB3E9D7D505.tmp' to 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Kits/Portal/Portal_BP_2.uasset'
+[2019.11.20-07.36.37:568][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kits/Portal/Portal_BP_Base_Contained" FILE="C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Kits/Portal/Portal_BP_Base_Contained.uasset" SILENT=true
+[2019.11.20-07.36.37:861][783]LogSavePackage: Moving 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Portal_BP_Base_ContainedF96D820349F4A19A09362FB5C7768D8C.tmp' to 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Kits/Portal/Portal_BP_Base_Contained.uasset'
+[2019.11.20-07.36.37:978][783]MaterialEditorStats: Base pass shader without light map: 34 instructions
+[2019.11.20-07.36.37:979][783]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.11.20-07.36.37:980][783]MaterialEditorStats: Texture samplers: 1/16
+[2019.11.20-07.36.37:980][783]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.20-07.36.37:980][783]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.20-07.37.44:038][278]BlueprintLog: New page: Compile Portal_BP_Base_Contained
+[2019.11.20-07.37.44:782][278]LogUObjectHash: Compacting FUObjectHashTables data took  13.86ms
+[2019.11.20-07.39.03:305][185]LogSlate: Window 'Change Variable Type' being destroyed
+[2019.11.20-07.39.22:015][627]BlueprintLog: New page: Compile Portal_BP_Base_Contained
+[2019.11.20-07.39.22:036][627]LogBlueprint: Error: [Compiler Portal_BP_Base_Contained] In use pin  Portal Pair  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2019.11.20-07.39.22:042][627]LogBlueprint: Error: [Compiler Portal_BP_Base_Contained] This blueprint (self) is not a Portal_BP_Base_C, therefore ' Target ' must have a connection.
+[2019.11.20-07.39.22:044][627]LogBlueprint: Error: [Compiler Portal_BP_Base_Contained] Variable node  Get ViewCamera  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2019.11.20-07.39.23:011][627]LogUObjectHash: Compacting FUObjectHashTables data took  12.71ms
+[2019.11.20-07.39.23:043][627]LogBlueprint: Warning: [Compiler Portal_BP_Base_Contained] [7865.96] Compile of Portal_BP_Base_Contained failed. 3 Fatal Issue(s) 0 Warning(s) [in 1,027 ms] (/Game/Kits/Portal/Portal_BP_Base_Contained.Portal_BP_Base_Contained)
+[2019.11.20-07.39.45:725][136]BlueprintLog: New page: Compile Portal_BP_Base_Contained
+[2019.11.20-07.39.46:454][136]LogUObjectHash: Compacting FUObjectHashTables data took  10.96ms
+[2019.11.20-07.40.03:443][557]BlueprintLog: New page: Compile Portal_BP_Base_Contained
+[2019.11.20-07.40.04:182][557]LogUObjectHash: Compacting FUObjectHashTables data took  12.10ms
+[2019.11.20-07.40.36:444][163]LogUObjectHash: Compacting FUObjectHashTables data took  11.45ms
+[2019.11.20-07.40.51:379][414]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.11.20-07.40.56:344][476]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.20-07.41.18:629][684]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2)
+[2019.11.20-07.41.19:298][691]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2)
+[2019.11.20-07.41.20:192][700]LogEditorViewport: Clicking on Actor (LMB): Portal_BP_Base_Contained_1_C (Portal_BP_Base_Contained_1)
+[2019.11.20-07.41.26:266][767]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.20-07.41.26:816][775]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.20-07.41.27:028][775]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.20-07.41.27:030][775]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel.Door_Breached' with GeneratedClass '/Game/Maps/Door_Breached.Door_Breached_C' with ClassGeneratedBy '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel.Door_Breached'
+[2019.11.20-07.41.27:031][775]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel.Door_Kit' with GeneratedClass '/Game/Maps/Door_Kit.Door_Kit_C' with ClassGeneratedBy '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel.Door_Kit'
+[2019.11.20-07.41.27:032][775]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel.Turret_Kit' with GeneratedClass '/Game/Maps/Turret_Kit.Turret_Kit_C' with ClassGeneratedBy '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel.Turret_Kit'
+[2019.11.20-07.41.27:033][775]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel.Laser_Kit' with GeneratedClass '/Game/Maps/Laser_Kit.Laser_Kit_C' with ClassGeneratedBy '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel.Laser_Kit'
+[2019.11.20-07.41.27:034][775]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel.Camera_Kit' with GeneratedClass '/Game/Maps/Camera_Kit.Camera_Kit_C' with ClassGeneratedBy '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel.Camera_Kit'
+[2019.11.20-07.41.27:036][775]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel.Explosive_Kit' with GeneratedClass '/Game/Maps/Explosive_Kit.Explosive_Kit_C' with ClassGeneratedBy '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel.Explosive_Kit'
+[2019.11.20-07.41.27:037][775]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel.Teleport_Kit' with GeneratedClass '/Game/Maps/Teleport_Kit.Teleport_Kit_C' with ClassGeneratedBy '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel.Teleport_Kit'
+[2019.11.20-07.41.27:039][775]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.20-07.41.27:039][775]PIE: New page: PIE session: FirstPersonExampleMap (Nov 19, 2019, 3:41:27 PM)
+[2019.11.20-07.41.27:042][775]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.11.20-07.41.27:109][775]LogPlayLevel: PIE: StaticDuplicateObject took: (0.065601s)
+[2019.11.20-07.41.27:112][775]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.11.20-07.41.27:114][775]LogPlayLevel: PIE: World Init took: (0.004154s)
+[2019.11.20-07.41.27:114][775]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.071675s)
+[2019.11.20-07.41.27:295][775]LogUObjectHash: Compacting FUObjectHashTables data took  13.25ms
+[2019.11.20-07.41.27:383][775]LogInit: XAudio2 using 'Headset Earphone (SteelSeries Arctis 5 Chat)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.20-07.41.27:435][775]LogInit: FAudioDevice initialized.
+[2019.11.20-07.41.27:457][775]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.20-07.41.27:504][775]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.11.20-07.41.27:557][775]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2019.11.19-23.41.27
+[2019.11.20-07.41.27:561][775]LogWorld: Bringing up level for play took: 0.053131
+[2019.11.20-07.41.27:613][775]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.53
+[2019.11.20-07.41.27:614][775]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.20-07.41.27:617][775]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel.Door_Breached' with GeneratedClass '/Game/Maps/Door_Breached.Door_Breached_C' with ClassGeneratedBy '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel.Door_Breached'
+[2019.11.20-07.41.27:619][775]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel.Door_Kit' with GeneratedClass '/Game/Maps/Door_Kit.Door_Kit_C' with ClassGeneratedBy '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel.Door_Kit'
+[2019.11.20-07.41.27:621][775]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel.Turret_Kit' with GeneratedClass '/Game/Maps/Turret_Kit.Turret_Kit_C' with ClassGeneratedBy '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel.Turret_Kit'
+[2019.11.20-07.41.27:623][775]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel.Laser_Kit' with GeneratedClass '/Game/Maps/Laser_Kit.Laser_Kit_C' with ClassGeneratedBy '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel.Laser_Kit'
+[2019.11.20-07.41.27:624][775]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel.Camera_Kit' with GeneratedClass '/Game/Maps/Camera_Kit.Camera_Kit_C' with ClassGeneratedBy '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel.Camera_Kit'
+[2019.11.20-07.41.27:626][775]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel.Explosive_Kit' with GeneratedClass '/Game/Maps/Explosive_Kit.Explosive_Kit_C' with ClassGeneratedBy '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel.Explosive_Kit'
+[2019.11.20-07.41.27:628][775]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel.Teleport_Kit' with GeneratedClass '/Game/Maps/Teleport_Kit.Teleport_Kit_C' with ClassGeneratedBy '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel.Teleport_Kit'
+[2019.11.20-07.41.33:183][836]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.20-07.41.33:184][836]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel.Door_Breached' with GeneratedClass '/Game/Maps/Door_Breached.Door_Breached_C' with ClassGeneratedBy '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel.Door_Breached'
+[2019.11.20-07.41.33:186][836]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel.Door_Kit' with GeneratedClass '/Game/Maps/Door_Kit.Door_Kit_C' with ClassGeneratedBy '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel.Door_Kit'
+[2019.11.20-07.41.33:187][836]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel.Turret_Kit' with GeneratedClass '/Game/Maps/Turret_Kit.Turret_Kit_C' with ClassGeneratedBy '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel.Turret_Kit'
+[2019.11.20-07.41.33:190][836]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel.Laser_Kit' with GeneratedClass '/Game/Maps/Laser_Kit.Laser_Kit_C' with ClassGeneratedBy '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel.Laser_Kit'
+[2019.11.20-07.41.33:191][836]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel.Camera_Kit' with GeneratedClass '/Game/Maps/Camera_Kit.Camera_Kit_C' with ClassGeneratedBy '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel.Camera_Kit'
+[2019.11.20-07.41.33:192][836]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel.Explosive_Kit' with GeneratedClass '/Game/Maps/Explosive_Kit.Explosive_Kit_C' with ClassGeneratedBy '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel.Explosive_Kit'
+[2019.11.20-07.41.33:193][836]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel.Teleport_Kit' with GeneratedClass '/Game/Maps/Teleport_Kit.Teleport_Kit_C' with ClassGeneratedBy '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel.Teleport_Kit'
+[2019.11.20-07.41.33:195][836]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.20-07.41.33:252][836]LogSlate: Window 'Mechanics_Sandbox Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.20-07.41.33:523][836]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.20-07.41.33:524][836]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.20-07.41.33:525][836]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel.Door_Breached' with GeneratedClass '/Game/Maps/Door_Breached.Door_Breached_C' with ClassGeneratedBy '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel.Door_Breached'
+[2019.11.20-07.41.33:527][836]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel.Door_Kit' with GeneratedClass '/Game/Maps/Door_Kit.Door_Kit_C' with ClassGeneratedBy '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel.Door_Kit'
+[2019.11.20-07.41.33:528][836]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel.Turret_Kit' with GeneratedClass '/Game/Maps/Turret_Kit.Turret_Kit_C' with ClassGeneratedBy '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel.Turret_Kit'
+[2019.11.20-07.41.33:529][836]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel.Laser_Kit' with GeneratedClass '/Game/Maps/Laser_Kit.Laser_Kit_C' with ClassGeneratedBy '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel.Laser_Kit'
+[2019.11.20-07.41.33:530][836]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel.Camera_Kit' with GeneratedClass '/Game/Maps/Camera_Kit.Camera_Kit_C' with ClassGeneratedBy '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel.Camera_Kit'
+[2019.11.20-07.41.33:531][836]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel.Explosive_Kit' with GeneratedClass '/Game/Maps/Explosive_Kit.Explosive_Kit_C' with ClassGeneratedBy '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel.Explosive_Kit'
+[2019.11.20-07.41.33:532][836]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel.Teleport_Kit' with GeneratedClass '/Game/Maps/Teleport_Kit.Teleport_Kit_C' with ClassGeneratedBy '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel.Teleport_Kit'
+[2019.11.20-07.41.33:675][836]LogUObjectHash: Compacting FUObjectHashTables data took   7.67ms
+[2019.11.20-07.41.33:881][837]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2019.11.20-07.41.35:687][860]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.20-07.43.36:698][386]BlueprintLog: New page: Compile Portal_BP_Base_Contained
+[2019.11.20-07.43.37:420][386]LogUObjectHash: Compacting FUObjectHashTables data took  11.25ms
+[2019.11.20-07.43.39:281][410]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.20-07.43.39:374][410]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.20-07.43.39:376][410]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel.Door_Breached' with GeneratedClass '/Game/Maps/Door_Breached.Door_Breached_C' with ClassGeneratedBy '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel.Door_Breached'
+[2019.11.20-07.43.39:377][410]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel.Door_Kit' with GeneratedClass '/Game/Maps/Door_Kit.Door_Kit_C' with ClassGeneratedBy '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel.Door_Kit'
+[2019.11.20-07.43.39:378][410]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel.Turret_Kit' with GeneratedClass '/Game/Maps/Turret_Kit.Turret_Kit_C' with ClassGeneratedBy '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel.Turret_Kit'
+[2019.11.20-07.43.39:379][410]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel.Laser_Kit' with GeneratedClass '/Game/Maps/Laser_Kit.Laser_Kit_C' with ClassGeneratedBy '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel.Laser_Kit'
+[2019.11.20-07.43.39:380][410]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel.Camera_Kit' with GeneratedClass '/Game/Maps/Camera_Kit.Camera_Kit_C' with ClassGeneratedBy '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel.Camera_Kit'
+[2019.11.20-07.43.39:381][410]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel.Explosive_Kit' with GeneratedClass '/Game/Maps/Explosive_Kit.Explosive_Kit_C' with ClassGeneratedBy '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel.Explosive_Kit'
+[2019.11.20-07.43.39:382][410]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel.Teleport_Kit' with GeneratedClass '/Game/Maps/Teleport_Kit.Teleport_Kit_C' with ClassGeneratedBy '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel.Teleport_Kit'
+[2019.11.20-07.43.39:383][410]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.20-07.43.39:384][410]PIE: New page: PIE session: FirstPersonExampleMap (Nov 19, 2019, 3:43:39 PM)
+[2019.11.20-07.43.39:386][410]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.11.20-07.43.39:442][410]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055983s)
+[2019.11.20-07.43.39:444][410]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.11.20-07.43.39:445][410]LogPlayLevel: PIE: World Init took: (0.002516s)
+[2019.11.20-07.43.39:446][410]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.060221s)
+[2019.11.20-07.43.39:581][410]LogUObjectHash: Compacting FUObjectHashTables data took  14.25ms
+[2019.11.20-07.43.39:665][410]LogInit: XAudio2 using 'Headset Earphone (SteelSeries Arctis 5 Chat)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.20-07.43.39:709][410]LogInit: FAudioDevice initialized.
+[2019.11.20-07.43.39:731][410]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.20-07.43.39:775][410]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.11.20-07.43.39:788][410]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2019.11.19-23.43.39
+[2019.11.20-07.43.39:790][410]LogWorld: Bringing up level for play took: 0.012990
+[2019.11.20-07.43.39:818][410]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.265
+[2019.11.20-07.43.39:819][410]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.20-07.43.39:821][410]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel.Door_Breached' with GeneratedClass '/Game/Maps/Door_Breached.Door_Breached_C' with ClassGeneratedBy '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel.Door_Breached'
+[2019.11.20-07.43.39:822][410]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel.Door_Kit' with GeneratedClass '/Game/Maps/Door_Kit.Door_Kit_C' with ClassGeneratedBy '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel.Door_Kit'
+[2019.11.20-07.43.39:823][410]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel.Turret_Kit' with GeneratedClass '/Game/Maps/Turret_Kit.Turret_Kit_C' with ClassGeneratedBy '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel.Turret_Kit'
+[2019.11.20-07.43.39:824][410]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel.Laser_Kit' with GeneratedClass '/Game/Maps/Laser_Kit.Laser_Kit_C' with ClassGeneratedBy '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel.Laser_Kit'
+[2019.11.20-07.43.39:826][410]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel.Camera_Kit' with GeneratedClass '/Game/Maps/Camera_Kit.Camera_Kit_C' with ClassGeneratedBy '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel.Camera_Kit'
+[2019.11.20-07.43.39:827][410]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel.Explosive_Kit' with GeneratedClass '/Game/Maps/Explosive_Kit.Explosive_Kit_C' with ClassGeneratedBy '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel.Explosive_Kit'
+[2019.11.20-07.43.39:828][410]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel.Teleport_Kit' with GeneratedClass '/Game/Maps/Teleport_Kit.Teleport_Kit_C' with ClassGeneratedBy '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel.Teleport_Kit'
+[2019.11.20-07.43.49:843][568]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.20-07.43.49:844][568]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel.Door_Breached' with GeneratedClass '/Game/Maps/Door_Breached.Door_Breached_C' with ClassGeneratedBy '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel.Door_Breached'
+[2019.11.20-07.43.49:845][568]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel.Door_Kit' with GeneratedClass '/Game/Maps/Door_Kit.Door_Kit_C' with ClassGeneratedBy '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel.Door_Kit'
+[2019.11.20-07.43.49:847][568]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel.Turret_Kit' with GeneratedClass '/Game/Maps/Turret_Kit.Turret_Kit_C' with ClassGeneratedBy '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel.Turret_Kit'
+[2019.11.20-07.43.49:848][568]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel.Laser_Kit' with GeneratedClass '/Game/Maps/Laser_Kit.Laser_Kit_C' with ClassGeneratedBy '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel.Laser_Kit'
+[2019.11.20-07.43.49:849][568]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel.Camera_Kit' with GeneratedClass '/Game/Maps/Camera_Kit.Camera_Kit_C' with ClassGeneratedBy '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel.Camera_Kit'
+[2019.11.20-07.43.49:850][568]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel.Explosive_Kit' with GeneratedClass '/Game/Maps/Explosive_Kit.Explosive_Kit_C' with ClassGeneratedBy '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel.Explosive_Kit'
+[2019.11.20-07.43.49:851][568]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel.Teleport_Kit' with GeneratedClass '/Game/Maps/Teleport_Kit.Teleport_Kit_C' with ClassGeneratedBy '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel.Teleport_Kit'
+[2019.11.20-07.43.49:853][568]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.20-07.43.49:917][568]LogSlate: Window 'Mechanics_Sandbox Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.20-07.43.50:056][568]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.20-07.43.50:057][568]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.20-07.43.50:058][568]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel.Door_Breached' with GeneratedClass '/Game/Maps/Door_Breached.Door_Breached_C' with ClassGeneratedBy '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel.Door_Breached'
+[2019.11.20-07.43.50:059][568]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel.Door_Kit' with GeneratedClass '/Game/Maps/Door_Kit.Door_Kit_C' with ClassGeneratedBy '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel.Door_Kit'
+[2019.11.20-07.43.50:060][568]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel.Turret_Kit' with GeneratedClass '/Game/Maps/Turret_Kit.Turret_Kit_C' with ClassGeneratedBy '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel.Turret_Kit'
+[2019.11.20-07.43.50:061][568]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel.Laser_Kit' with GeneratedClass '/Game/Maps/Laser_Kit.Laser_Kit_C' with ClassGeneratedBy '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel.Laser_Kit'
+[2019.11.20-07.43.50:062][568]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel.Camera_Kit' with GeneratedClass '/Game/Maps/Camera_Kit.Camera_Kit_C' with ClassGeneratedBy '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel.Camera_Kit'
+[2019.11.20-07.43.50:063][568]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel.Explosive_Kit' with GeneratedClass '/Game/Maps/Explosive_Kit.Explosive_Kit_C' with ClassGeneratedBy '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel.Explosive_Kit'
+[2019.11.20-07.43.50:064][568]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel.Teleport_Kit' with GeneratedClass '/Game/Maps/Teleport_Kit.Teleport_Kit_C' with ClassGeneratedBy '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel.Teleport_Kit'
+[2019.11.20-07.43.50:219][568]LogUObjectHash: Compacting FUObjectHashTables data took   8.90ms
+[2019.11.20-07.43.50:447][569]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2019.11.20-07.44.45:448][487]BlueprintLog: New page: Compile Portal_BP_Base_Contained
+[2019.11.20-07.44.46:311][487]LogUObjectHash: Compacting FUObjectHashTables data took  10.98ms
+[2019.11.20-07.44.47:040][495]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.20-07.44.47:124][495]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.20-07.44.47:125][495]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel.Door_Breached' with GeneratedClass '/Game/Maps/Door_Breached.Door_Breached_C' with ClassGeneratedBy '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel.Door_Breached'
+[2019.11.20-07.44.47:127][495]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel.Door_Kit' with GeneratedClass '/Game/Maps/Door_Kit.Door_Kit_C' with ClassGeneratedBy '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel.Door_Kit'
+[2019.11.20-07.44.47:128][495]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel.Turret_Kit' with GeneratedClass '/Game/Maps/Turret_Kit.Turret_Kit_C' with ClassGeneratedBy '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel.Turret_Kit'
+[2019.11.20-07.44.47:129][495]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel.Laser_Kit' with GeneratedClass '/Game/Maps/Laser_Kit.Laser_Kit_C' with ClassGeneratedBy '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel.Laser_Kit'
+[2019.11.20-07.44.47:130][495]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel.Camera_Kit' with GeneratedClass '/Game/Maps/Camera_Kit.Camera_Kit_C' with ClassGeneratedBy '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel.Camera_Kit'
+[2019.11.20-07.44.47:131][495]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel.Explosive_Kit' with GeneratedClass '/Game/Maps/Explosive_Kit.Explosive_Kit_C' with ClassGeneratedBy '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel.Explosive_Kit'
+[2019.11.20-07.44.47:132][495]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel.Teleport_Kit' with GeneratedClass '/Game/Maps/Teleport_Kit.Teleport_Kit_C' with ClassGeneratedBy '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel.Teleport_Kit'
+[2019.11.20-07.44.47:133][495]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.20-07.44.47:133][495]PIE: New page: PIE session: FirstPersonExampleMap (Nov 19, 2019, 3:44:47 PM)
+[2019.11.20-07.44.47:135][495]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.11.20-07.44.47:183][495]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047707s)
+[2019.11.20-07.44.47:185][495]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.11.20-07.44.47:186][495]LogPlayLevel: PIE: World Init took: (0.002281s)
+[2019.11.20-07.44.47:186][495]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.051285s)
+[2019.11.20-07.44.47:324][495]LogUObjectHash: Compacting FUObjectHashTables data took  12.71ms
+[2019.11.20-07.44.47:400][495]LogInit: XAudio2 using 'Headset Earphone (SteelSeries Arctis 5 Chat)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.20-07.44.47:443][495]LogInit: FAudioDevice initialized.
+[2019.11.20-07.44.47:465][495]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.20-07.44.47:510][495]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.11.20-07.44.47:525][495]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2019.11.19-23.44.47
+[2019.11.20-07.44.47:527][495]LogWorld: Bringing up level for play took: 0.015146
+[2019.11.20-07.44.47:551][495]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.532
+[2019.11.20-07.44.47:552][495]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.20-07.44.47:554][495]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel.Door_Breached' with GeneratedClass '/Game/Maps/Door_Breached.Door_Breached_C' with ClassGeneratedBy '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel.Door_Breached'
+[2019.11.20-07.44.47:556][495]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel.Door_Kit' with GeneratedClass '/Game/Maps/Door_Kit.Door_Kit_C' with ClassGeneratedBy '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel.Door_Kit'
+[2019.11.20-07.44.47:558][495]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel.Turret_Kit' with GeneratedClass '/Game/Maps/Turret_Kit.Turret_Kit_C' with ClassGeneratedBy '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel.Turret_Kit'
+[2019.11.20-07.44.47:559][495]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel.Laser_Kit' with GeneratedClass '/Game/Maps/Laser_Kit.Laser_Kit_C' with ClassGeneratedBy '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel.Laser_Kit'
+[2019.11.20-07.44.47:561][495]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel.Camera_Kit' with GeneratedClass '/Game/Maps/Camera_Kit.Camera_Kit_C' with ClassGeneratedBy '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel.Camera_Kit'
+[2019.11.20-07.44.47:562][495]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel.Explosive_Kit' with GeneratedClass '/Game/Maps/Explosive_Kit.Explosive_Kit_C' with ClassGeneratedBy '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel.Explosive_Kit'
+[2019.11.20-07.44.47:564][495]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel.Teleport_Kit' with GeneratedClass '/Game/Maps/Teleport_Kit.Teleport_Kit_C' with ClassGeneratedBy '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel.Teleport_Kit'
+[2019.11.20-07.44.52:219][574]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.20-07.44.52:221][574]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel.Door_Breached' with GeneratedClass '/Game/Maps/Door_Breached.Door_Breached_C' with ClassGeneratedBy '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel.Door_Breached'
+[2019.11.20-07.44.52:222][574]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel.Door_Kit' with GeneratedClass '/Game/Maps/Door_Kit.Door_Kit_C' with ClassGeneratedBy '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel.Door_Kit'
+[2019.11.20-07.44.52:224][574]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel.Turret_Kit' with GeneratedClass '/Game/Maps/Turret_Kit.Turret_Kit_C' with ClassGeneratedBy '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel.Turret_Kit'
+[2019.11.20-07.44.52:225][574]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel.Laser_Kit' with GeneratedClass '/Game/Maps/Laser_Kit.Laser_Kit_C' with ClassGeneratedBy '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel.Laser_Kit'
+[2019.11.20-07.44.52:226][574]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel.Camera_Kit' with GeneratedClass '/Game/Maps/Camera_Kit.Camera_Kit_C' with ClassGeneratedBy '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel.Camera_Kit'
+[2019.11.20-07.44.52:228][574]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel.Explosive_Kit' with GeneratedClass '/Game/Maps/Explosive_Kit.Explosive_Kit_C' with ClassGeneratedBy '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel.Explosive_Kit'
+[2019.11.20-07.44.52:229][574]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel.Teleport_Kit' with GeneratedClass '/Game/Maps/Teleport_Kit.Teleport_Kit_C' with ClassGeneratedBy '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel.Teleport_Kit'
+[2019.11.20-07.44.52:231][574]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.20-07.44.52:305][574]LogSlate: Window 'Mechanics_Sandbox Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.20-07.44.52:414][574]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.20-07.44.52:415][574]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.20-07.44.52:417][574]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel.Door_Breached' with GeneratedClass '/Game/Maps/Door_Breached.Door_Breached_C' with ClassGeneratedBy '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel.Door_Breached'
+[2019.11.20-07.44.52:419][574]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel.Door_Kit' with GeneratedClass '/Game/Maps/Door_Kit.Door_Kit_C' with ClassGeneratedBy '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel.Door_Kit'
+[2019.11.20-07.44.52:420][574]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel.Turret_Kit' with GeneratedClass '/Game/Maps/Turret_Kit.Turret_Kit_C' with ClassGeneratedBy '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel.Turret_Kit'
+[2019.11.20-07.44.52:421][574]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel.Laser_Kit' with GeneratedClass '/Game/Maps/Laser_Kit.Laser_Kit_C' with ClassGeneratedBy '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel.Laser_Kit'
+[2019.11.20-07.44.52:422][574]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel.Camera_Kit' with GeneratedClass '/Game/Maps/Camera_Kit.Camera_Kit_C' with ClassGeneratedBy '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel.Camera_Kit'
+[2019.11.20-07.44.52:423][574]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel.Explosive_Kit' with GeneratedClass '/Game/Maps/Explosive_Kit.Explosive_Kit_C' with ClassGeneratedBy '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel.Explosive_Kit'
+[2019.11.20-07.44.52:424][574]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel.Teleport_Kit' with GeneratedClass '/Game/Maps/Teleport_Kit.Teleport_Kit_C' with ClassGeneratedBy '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel.Teleport_Kit'
+[2019.11.20-07.44.52:583][574]LogUObjectHash: Compacting FUObjectHashTables data took   9.90ms
+[2019.11.20-07.44.52:756][575]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2019.11.20-07.44.56:835][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kits/Portal/Portal_BP_Base_Contained" FILE="C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Kits/Portal/Portal_BP_Base_Contained.uasset" SILENT=true
+[2019.11.20-07.44.57:106][636]LogSavePackage: Moving 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Portal_BP_Base_ContainedF9CDBB444691AAFC331E10AC37CEE9C4.tmp' to 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Kits/Portal/Portal_BP_Base_Contained.uasset'
+[2019.11.20-07.45.55:649][729]BlueprintLog: New page: Compile Portal_BP_Base_Contained
+[2019.11.20-07.45.56:667][729]LogUObjectHash: Compacting FUObjectHashTables data took  15.99ms
+[2019.11.20-07.46.04:546][821]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.11.20-07.46.05:521][830]LogEditorViewport: Clicking on Actor (LMB): Portal_BP_Base_Contained_1_C (Portal_BP_Base_Contained_1)
+[2019.11.20-07.46.08:574][863]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.20-07.46.17:358][966]LogEditorViewport: Clicking on Actor (LMB): Portal_BP_Base_Contained_2_C (Portal_BP_Base_Contained_3)
+[2019.11.20-07.46.21:007][  7]LogEditorViewport: Clicking on Actor (LMB): Portal_BP_Base_Contained_2_C (Portal_BP_Base_Contained_2)
+[2019.11.20-07.46.22:323][ 23]Cmd: DELETE
+[2019.11.20-07.46.22:323][ 23]Cmd: ACTOR DELETE
+[2019.11.20-07.46.22:341][ 23]LogEditorActor: Deleted Actor: Portal_BP_Base_Contained_2_C
+[2019.11.20-07.46.22:506][ 23]LogUObjectHash: Compacting FUObjectHashTables data took  12.44ms
+[2019.11.20-07.46.22:507][ 23]LogEditorActor: Deleted 1 Actors (0.184 secs)
+[2019.11.20-07.46.23:827][ 41]LogEditorViewport: Clicking on Actor (LMB): Portal_BP_Base_Contained_2_C (Portal_BP_Base_Contained_3)
+[2019.11.20-07.46.26:856][ 77]LogEditorViewport: Clicking on Actor (LMB): Portal_BP_Base_Contained_1_C (Portal_BP_Base_Contained_1)
+[2019.11.20-07.46.56:946][488]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.20-07.46.57:190][488]LogUObjectHash: Compacting FUObjectHashTables data took   9.94ms
+[2019.11.20-07.46.58:431][488]LogSavePackage: Moving 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/FirstPersonExampleMap_Auto445AE9741497DBE6D66427CB275A9AE78.tmp' to 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto4.umap'
+[2019.11.20-07.46.58:442][488]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 1.385
+[2019.11.20-07.46.58:443][488]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.385
+[2019.11.20-07.46.58:447][488]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Kits/Portal/Portal_BP_1] ([1] browsable assets)...
+[2019.11.20-07.46.58:448][488]OBJ SavePackage: Finished generating thumbnails for package [/Game/Kits/Portal/Portal_BP_1]
+[2019.11.20-07.46.58:558][488]LogSavePackage: Moving 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Portal_BP_1_Auto4D1BF266141BD9AED4F54E0A6853CA772.tmp' to 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Autosaves/Game/Kits/Portal/Portal_BP_1_Auto4.uasset'
+[2019.11.20-07.46.58:564][488]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Kits/Portal/Portal_BP_Base_Contained] ([1] browsable assets)...
+[2019.11.20-07.46.58:607][488]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Kits/Portal/Portal_BP_Base_Contained.Portal_BP_Base_Contained]
+[2019.11.20-07.46.58:608][488]OBJ SavePackage: Finished generating thumbnails for package [/Game/Kits/Portal/Portal_BP_Base_Contained]
+[2019.11.20-07.46.58:923][488]LogSavePackage: Moving 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Portal_BP_Base_Contained_Auto41DD2800E45F3D1825A31ECABE42A8E56.tmp' to 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Autosaves/Game/Kits/Portal/Portal_BP_Base_Contained_Auto4.uasset'
+[2019.11.20-07.46.58:932][488]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Kits/Portal/Portal_BP_Base_Contained_1] ([1] browsable assets)...
+[2019.11.20-07.46.58:971][488]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Kits/Portal/Portal_BP_Base_Contained_1.Portal_BP_Base_Contained_1]
+[2019.11.20-07.46.58:972][488]OBJ SavePackage: Finished generating thumbnails for package [/Game/Kits/Portal/Portal_BP_Base_Contained_1]
+[2019.11.20-07.46.59:060][488]LogSavePackage: Moving 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Portal_BP_Base_Contained_1_Auto47F975B4F47456CF90420DA896D2C3DCB.tmp' to 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Autosaves/Game/Kits/Portal/Portal_BP_Base_Contained_1_Auto4.uasset'
+[2019.11.20-07.46.59:069][488]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Kits/Portal/Portal_BP_Base_Contained_2] ([1] browsable assets)...
+[2019.11.20-07.46.59:111][488]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Kits/Portal/Portal_BP_Base_Contained_2.Portal_BP_Base_Contained_2]
+[2019.11.20-07.46.59:112][488]OBJ SavePackage: Finished generating thumbnails for package [/Game/Kits/Portal/Portal_BP_Base_Contained_2]
+[2019.11.20-07.46.59:203][488]LogSavePackage: Moving 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Portal_BP_Base_Contained_2_Auto484A31A294564624C4BCD098929C30042.tmp' to 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Autosaves/Game/Kits/Portal/Portal_BP_Base_Contained_2_Auto4.uasset'
+[2019.11.20-07.46.59:207][488]LogFileHelpers: Auto-saving content packages took 0.761
+[2019.11.20-07.48.35:580][200]LogConsoleManager: Warning: Console object named 'ActorComponents.Enable' already exists but is being registered again, but we weren't expected it to be! (FConsoleManager::AddConsoleObject)
+[2019.11.20-07.48.49:437][452]LogEditorViewport: Clicking on Actor (LMB): Portal_BP_Base_Contained_1_C (Portal_BP_Base_Contained_1)
+[2019.11.20-07.48.51:419][476]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.20-07.48.55:357][539]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.20-07.48.55:479][541]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.20-07.48.55:572][541]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.20-07.48.55:574][541]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel.Door_Breached' with GeneratedClass '/Game/Maps/Door_Breached.Door_Breached_C' with ClassGeneratedBy '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel.Door_Breached'
+[2019.11.20-07.48.55:575][541]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel.Door_Kit' with GeneratedClass '/Game/Maps/Door_Kit.Door_Kit_C' with ClassGeneratedBy '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel.Door_Kit'
+[2019.11.20-07.48.55:576][541]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel.Turret_Kit' with GeneratedClass '/Game/Maps/Turret_Kit.Turret_Kit_C' with ClassGeneratedBy '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel.Turret_Kit'
+[2019.11.20-07.48.55:576][541]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel.Laser_Kit' with GeneratedClass '/Game/Maps/Laser_Kit.Laser_Kit_C' with ClassGeneratedBy '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel.Laser_Kit'
+[2019.11.20-07.48.55:577][541]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel.Camera_Kit' with GeneratedClass '/Game/Maps/Camera_Kit.Camera_Kit_C' with ClassGeneratedBy '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel.Camera_Kit'
+[2019.11.20-07.48.55:578][541]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel.Explosive_Kit' with GeneratedClass '/Game/Maps/Explosive_Kit.Explosive_Kit_C' with ClassGeneratedBy '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel.Explosive_Kit'
+[2019.11.20-07.48.55:579][541]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel.Teleport_Kit' with GeneratedClass '/Game/Maps/Teleport_Kit.Teleport_Kit_C' with ClassGeneratedBy '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel.Teleport_Kit'
+[2019.11.20-07.48.55:580][541]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.20-07.48.55:581][541]PIE: New page: PIE session: FirstPersonExampleMap (Nov 19, 2019, 3:48:55 PM)
+[2019.11.20-07.48.55:583][541]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.11.20-07.48.55:631][541]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047212s)
+[2019.11.20-07.48.55:633][541]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.11.20-07.48.55:634][541]LogPlayLevel: PIE: World Init took: (0.002601s)
+[2019.11.20-07.48.55:634][541]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.051592s)
+[2019.11.20-07.48.55:764][541]LogUObjectHash: Compacting FUObjectHashTables data took  14.45ms
+[2019.11.20-07.48.55:846][541]LogInit: XAudio2 using 'Headset Earphone (SteelSeries Arctis 5 Chat)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.20-07.48.55:889][541]LogInit: FAudioDevice initialized.
+[2019.11.20-07.48.55:910][541]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.20-07.48.55:957][541]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.11.20-07.48.55:971][541]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2019.11.19-23.48.55
+[2019.11.20-07.48.55:974][541]LogWorld: Bringing up level for play took: 0.013946
+[2019.11.20-07.48.56:279][541]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.196
+[2019.11.20-07.48.56:280][541]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.20-07.48.56:282][541]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel.Door_Breached' with GeneratedClass '/Game/Maps/Door_Breached.Door_Breached_C' with ClassGeneratedBy '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel.Door_Breached'
+[2019.11.20-07.48.56:283][541]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel.Door_Kit' with GeneratedClass '/Game/Maps/Door_Kit.Door_Kit_C' with ClassGeneratedBy '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel.Door_Kit'
+[2019.11.20-07.48.56:283][541]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel.Turret_Kit' with GeneratedClass '/Game/Maps/Turret_Kit.Turret_Kit_C' with ClassGeneratedBy '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel.Turret_Kit'
+[2019.11.20-07.48.56:284][541]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel.Laser_Kit' with GeneratedClass '/Game/Maps/Laser_Kit.Laser_Kit_C' with ClassGeneratedBy '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel.Laser_Kit'
+[2019.11.20-07.48.56:286][541]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel.Camera_Kit' with GeneratedClass '/Game/Maps/Camera_Kit.Camera_Kit_C' with ClassGeneratedBy '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel.Camera_Kit'
+[2019.11.20-07.48.56:286][541]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel.Explosive_Kit' with GeneratedClass '/Game/Maps/Explosive_Kit.Explosive_Kit_C' with ClassGeneratedBy '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel.Explosive_Kit'
+[2019.11.20-07.48.56:287][541]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel.Teleport_Kit' with GeneratedClass '/Game/Maps/Teleport_Kit.Teleport_Kit_C' with ClassGeneratedBy '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel.Teleport_Kit'
+[2019.11.20-07.49.16:689][939]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.20-07.49.16:691][939]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel.Door_Breached' with GeneratedClass '/Game/Maps/Door_Breached.Door_Breached_C' with ClassGeneratedBy '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel.Door_Breached'
+[2019.11.20-07.49.16:692][939]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel.Door_Kit' with GeneratedClass '/Game/Maps/Door_Kit.Door_Kit_C' with ClassGeneratedBy '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel.Door_Kit'
+[2019.11.20-07.49.16:694][939]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel.Turret_Kit' with GeneratedClass '/Game/Maps/Turret_Kit.Turret_Kit_C' with ClassGeneratedBy '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel.Turret_Kit'
+[2019.11.20-07.49.16:696][939]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel.Laser_Kit' with GeneratedClass '/Game/Maps/Laser_Kit.Laser_Kit_C' with ClassGeneratedBy '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel.Laser_Kit'
+[2019.11.20-07.49.16:697][939]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel.Camera_Kit' with GeneratedClass '/Game/Maps/Camera_Kit.Camera_Kit_C' with ClassGeneratedBy '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel.Camera_Kit'
+[2019.11.20-07.49.16:698][939]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel.Explosive_Kit' with GeneratedClass '/Game/Maps/Explosive_Kit.Explosive_Kit_C' with ClassGeneratedBy '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel.Explosive_Kit'
+[2019.11.20-07.49.16:699][939]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel.Teleport_Kit' with GeneratedClass '/Game/Maps/Teleport_Kit.Teleport_Kit_C' with ClassGeneratedBy '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel.Teleport_Kit'
+[2019.11.20-07.49.16:701][939]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.20-07.49.16:768][939]LogSlate: Window 'Mechanics_Sandbox Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.20-07.49.16:880][939]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.20-07.49.16:881][939]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.20-07.49.16:882][939]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel.Door_Breached' with GeneratedClass '/Game/Maps/Door_Breached.Door_Breached_C' with ClassGeneratedBy '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel.Door_Breached'
+[2019.11.20-07.49.16:884][939]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel.Door_Kit' with GeneratedClass '/Game/Maps/Door_Kit.Door_Kit_C' with ClassGeneratedBy '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel.Door_Kit'
+[2019.11.20-07.49.16:885][939]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel.Turret_Kit' with GeneratedClass '/Game/Maps/Turret_Kit.Turret_Kit_C' with ClassGeneratedBy '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel.Turret_Kit'
+[2019.11.20-07.49.16:886][939]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel.Laser_Kit' with GeneratedClass '/Game/Maps/Laser_Kit.Laser_Kit_C' with ClassGeneratedBy '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel.Laser_Kit'
+[2019.11.20-07.49.16:887][939]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel.Camera_Kit' with GeneratedClass '/Game/Maps/Camera_Kit.Camera_Kit_C' with ClassGeneratedBy '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel.Camera_Kit'
+[2019.11.20-07.49.16:888][939]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel.Explosive_Kit' with GeneratedClass '/Game/Maps/Explosive_Kit.Explosive_Kit_C' with ClassGeneratedBy '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel.Explosive_Kit'
+[2019.11.20-07.49.16:889][939]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel.Teleport_Kit' with GeneratedClass '/Game/Maps/Teleport_Kit.Teleport_Kit_C' with ClassGeneratedBy '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel.Teleport_Kit'
+[2019.11.20-07.49.17:041][939]LogUObjectHash: Compacting FUObjectHashTables data took   9.90ms
+[2019.11.20-07.49.17:273][940]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2019.11.20-07.49.18:483][956]LogEditorViewport: Clicking on Actor (LMB): Portal_BP_Base_Contained_1_C (Portal_BP_Base_Contained_1)
+[2019.11.20-07.49.19:887][973]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.20-07.49.23:991][ 65]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.20-07.49.24:391][ 71]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.20-07.49.24:450][ 71]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.20-07.49.24:452][ 71]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel.Door_Breached' with GeneratedClass '/Game/Maps/Door_Breached.Door_Breached_C' with ClassGeneratedBy '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel.Door_Breached'
+[2019.11.20-07.49.24:453][ 71]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel.Door_Kit' with GeneratedClass '/Game/Maps/Door_Kit.Door_Kit_C' with ClassGeneratedBy '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel.Door_Kit'
+[2019.11.20-07.49.24:454][ 71]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel.Turret_Kit' with GeneratedClass '/Game/Maps/Turret_Kit.Turret_Kit_C' with ClassGeneratedBy '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel.Turret_Kit'
+[2019.11.20-07.49.24:455][ 71]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel.Laser_Kit' with GeneratedClass '/Game/Maps/Laser_Kit.Laser_Kit_C' with ClassGeneratedBy '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel.Laser_Kit'
+[2019.11.20-07.49.24:455][ 71]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel.Camera_Kit' with GeneratedClass '/Game/Maps/Camera_Kit.Camera_Kit_C' with ClassGeneratedBy '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel.Camera_Kit'
+[2019.11.20-07.49.24:457][ 71]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel.Explosive_Kit' with GeneratedClass '/Game/Maps/Explosive_Kit.Explosive_Kit_C' with ClassGeneratedBy '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel.Explosive_Kit'
+[2019.11.20-07.49.24:458][ 71]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel.Teleport_Kit' with GeneratedClass '/Game/Maps/Teleport_Kit.Teleport_Kit_C' with ClassGeneratedBy '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel.Teleport_Kit'
+[2019.11.20-07.49.24:459][ 71]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.20-07.49.24:459][ 71]PIE: New page: PIE session: FirstPersonExampleMap (Nov 19, 2019, 3:49:24 PM)
+[2019.11.20-07.49.24:462][ 71]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.11.20-07.49.24:504][ 71]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040749s)
+[2019.11.20-07.49.24:507][ 71]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.11.20-07.49.24:508][ 71]LogPlayLevel: PIE: World Init took: (0.003127s)
+[2019.11.20-07.49.24:508][ 71]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.045639s)
+[2019.11.20-07.49.24:623][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   9.49ms
+[2019.11.20-07.49.24:696][ 71]LogInit: XAudio2 using 'Headset Earphone (SteelSeries Arctis 5 Chat)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.20-07.49.24:736][ 71]LogInit: FAudioDevice initialized.
+[2019.11.20-07.49.24:755][ 71]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.20-07.49.24:799][ 71]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.11.20-07.49.24:819][ 71]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2019.11.19-23.49.24
+[2019.11.20-07.49.24:822][ 71]LogWorld: Bringing up level for play took: 0.020027
+[2019.11.20-07.49.24:846][ 71]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.763
+[2019.11.20-07.49.24:848][ 71]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.20-07.49.24:849][ 71]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel.Door_Breached' with GeneratedClass '/Game/Maps/Door_Breached.Door_Breached_C' with ClassGeneratedBy '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel.Door_Breached'
+[2019.11.20-07.49.24:850][ 71]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel.Door_Kit' with GeneratedClass '/Game/Maps/Door_Kit.Door_Kit_C' with ClassGeneratedBy '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel.Door_Kit'
+[2019.11.20-07.49.24:851][ 71]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel.Turret_Kit' with GeneratedClass '/Game/Maps/Turret_Kit.Turret_Kit_C' with ClassGeneratedBy '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel.Turret_Kit'
+[2019.11.20-07.49.24:853][ 71]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel.Laser_Kit' with GeneratedClass '/Game/Maps/Laser_Kit.Laser_Kit_C' with ClassGeneratedBy '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel.Laser_Kit'
+[2019.11.20-07.49.24:853][ 71]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel.Camera_Kit' with GeneratedClass '/Game/Maps/Camera_Kit.Camera_Kit_C' with ClassGeneratedBy '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel.Camera_Kit'
+[2019.11.20-07.49.24:854][ 71]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel.Explosive_Kit' with GeneratedClass '/Game/Maps/Explosive_Kit.Explosive_Kit_C' with ClassGeneratedBy '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel.Explosive_Kit'
+[2019.11.20-07.49.24:855][ 71]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel.Teleport_Kit' with GeneratedClass '/Game/Maps/Teleport_Kit.Teleport_Kit_C' with ClassGeneratedBy '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel.Teleport_Kit'
+[2019.11.20-07.49.52:812][612]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.20-07.49.52:814][612]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel.Door_Breached' with GeneratedClass '/Game/Maps/Door_Breached.Door_Breached_C' with ClassGeneratedBy '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel.Door_Breached'
+[2019.11.20-07.49.52:815][612]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel.Door_Kit' with GeneratedClass '/Game/Maps/Door_Kit.Door_Kit_C' with ClassGeneratedBy '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel.Door_Kit'
+[2019.11.20-07.49.52:816][612]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel.Turret_Kit' with GeneratedClass '/Game/Maps/Turret_Kit.Turret_Kit_C' with ClassGeneratedBy '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel.Turret_Kit'
+[2019.11.20-07.49.52:817][612]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel.Laser_Kit' with GeneratedClass '/Game/Maps/Laser_Kit.Laser_Kit_C' with ClassGeneratedBy '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel.Laser_Kit'
+[2019.11.20-07.49.52:818][612]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel.Camera_Kit' with GeneratedClass '/Game/Maps/Camera_Kit.Camera_Kit_C' with ClassGeneratedBy '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel.Camera_Kit'
+[2019.11.20-07.49.52:819][612]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel.Explosive_Kit' with GeneratedClass '/Game/Maps/Explosive_Kit.Explosive_Kit_C' with ClassGeneratedBy '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel.Explosive_Kit'
+[2019.11.20-07.49.52:820][612]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel.Teleport_Kit' with GeneratedClass '/Game/Maps/Teleport_Kit.Teleport_Kit_C' with ClassGeneratedBy '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel.Teleport_Kit'
+[2019.11.20-07.49.52:822][612]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.20-07.49.52:893][612]LogSlate: Window 'Mechanics_Sandbox Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.20-07.49.53:045][612]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.20-07.49.53:046][612]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.20-07.49.53:048][612]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel.Door_Breached' with GeneratedClass '/Game/Maps/Door_Breached.Door_Breached_C' with ClassGeneratedBy '/Game/Maps/Door_Breached.Door_Breached:PersistentLevel.Door_Breached'
+[2019.11.20-07.49.53:049][612]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel.Door_Kit' with GeneratedClass '/Game/Maps/Door_Kit.Door_Kit_C' with ClassGeneratedBy '/Game/Maps/Door_Kit.Door_Kit:PersistentLevel.Door_Kit'
+[2019.11.20-07.49.53:050][612]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel.Turret_Kit' with GeneratedClass '/Game/Maps/Turret_Kit.Turret_Kit_C' with ClassGeneratedBy '/Game/Maps/Turret_Kit.Turret_Kit:PersistentLevel.Turret_Kit'
+[2019.11.20-07.49.53:051][612]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel.Laser_Kit' with GeneratedClass '/Game/Maps/Laser_Kit.Laser_Kit_C' with ClassGeneratedBy '/Game/Maps/Laser_Kit.Laser_Kit:PersistentLevel.Laser_Kit'
+[2019.11.20-07.49.53:052][612]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel.Camera_Kit' with GeneratedClass '/Game/Maps/Camera_Kit.Camera_Kit_C' with ClassGeneratedBy '/Game/Maps/Camera_Kit.Camera_Kit:PersistentLevel.Camera_Kit'
+[2019.11.20-07.49.53:053][612]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel.Explosive_Kit' with GeneratedClass '/Game/Maps/Explosive_Kit.Explosive_Kit_C' with ClassGeneratedBy '/Game/Maps/Explosive_Kit.Explosive_Kit:PersistentLevel.Explosive_Kit'
+[2019.11.20-07.49.53:055][612]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel.Teleport_Kit' with GeneratedClass '/Game/Maps/Teleport_Kit.Teleport_Kit_C' with ClassGeneratedBy '/Game/Maps/Teleport_Kit.Teleport_Kit:PersistentLevel.Teleport_Kit'
+[2019.11.20-07.49.53:210][612]LogUObjectHash: Compacting FUObjectHashTables data took   7.97ms
+[2019.11.20-07.49.53:417][613]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2019.11.20-07.49.55:239][637]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.20-07.50.08:141][922]BlueprintLog: New page: Compile Portal_BP_Base_Contained
+[2019.11.20-07.50.08:860][922]LogUObjectHash: Compacting FUObjectHashTables data took   9.69ms
+[2019.11.20-07.50.15:732][ 64]LogUObjectHash: Compacting FUObjectHashTables data took  13.11ms
+[2019.11.20-07.50.15:887][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2019.11.20-07.50.16:884][ 64]LogSavePackage: Moving 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/FirstPersonExampleMap037B526E4D4ADBBCC0BCD584FCDF9691.tmp' to 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2019.11.20-07.50.17:026][ 64]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 1.259
+[2019.11.20-07.50.17:038][ 64]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kits/Portal/Portal_BP_1" FILE="C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Kits/Portal/Portal_BP_1.uasset" SILENT=true
+[2019.11.20-07.50.17:132][ 64]LogSavePackage: Moving 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Portal_BP_15CD224D443C6C034F1FDA4A99800D575.tmp' to 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Kits/Portal/Portal_BP_1.uasset'
+[2019.11.20-07.50.17:196][ 64]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kits/Portal/Portal_BP_Base_Contained" FILE="C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Kits/Portal/Portal_BP_Base_Contained.uasset" SILENT=true
+[2019.11.20-07.50.17:524][ 64]LogSavePackage: Moving 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Portal_BP_Base_Contained23C1223140E386A6D0B4DC86ED12D3ED.tmp' to 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Kits/Portal/Portal_BP_Base_Contained.uasset'
+[2019.11.20-07.50.17:610][ 64]LogSavePackage: Moving 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Portal_BP_Base_Contained_11C07609D4944C3053AC6BDBC54CEC2D5.tmp' to 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Kits/Portal/Portal_BP_Base_Contained_1.uasset'
+[2019.11.20-07.50.17:690][ 64]LogSavePackage: Moving 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Saved/Portal_BP_Base_Contained_250BA8D164B13C1FB148D42AB71D48D80.tmp' to 'C:/Users/danny/Desktop/Systems_Sandbox/Mechanics_Sandbox/Content/Kits/Portal/Portal_BP_Base_Contained_2.uasset'
+[2019.11.20-07.50.57:195][597]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.20-07.50.57:473][599]LogUObjectHash: Compacting FUObjectHashTables data took  14.23ms
+[2019.11.20-07.50.58:705][599]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.11.20-07.50.59:103][599]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.11.20-07.50.59:230][599]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.11.20-07.50.59:601][599]LogSlate: Window 'Portal_BP_1' being destroyed
+[2019.11.20-07.50.59:622][599]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.11.20-07.50.59:868][599]LogSlate: Window 'Viewport 1' being destroyed
+[2019.11.20-07.51.00:073][599]LogSlate: Window 'Mechanics_Sandbox - Unreal Editor' being destroyed
+[2019.11.20-07.51.00:075][599]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.11.20-07.51.00:753][600]Cmd: QUIT_EDITOR
+[2019.11.20-07.51.01:282][600]LogExit: Preparing to exit.
+[2019.11.20-07.51.02:777][600]LogExit: Editor shut down
+[2019.11.20-07.51.02:781][600]LogExit: Transaction tracking system shut down
+[2019.11.20-07.51.04:047][600]LogExit: Object subsystem successfully closed.
+[2019.11.20-07.51.04:109][600]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.11.20-07.51.04:120][600]LogD3D11RHI: Shutdown
+[2019.11.20-07.51.04:120][600]LogD3D11RHI: CleanupD3DDevice
+[2019.11.20-07.51.04:124][600]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.11.20-07.51.04:124][600]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.11.20-07.51.04:124][600]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.11.20-07.51.04:124][600]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.11.20-07.51.04:124][600]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.11.20-07.51.04:124][600]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.11.20-07.51.05:773][600]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.11.20-07.51.05:867][600]LogModuleManager: Shutting down and abandoning module TextureEditor (656)
+[2019.11.20-07.51.05:867][600]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (654)
+[2019.11.20-07.51.05:867][600]LogModuleManager: Shutting down and abandoning module Voice (652)
+[2019.11.20-07.51.05:867][600]LogModuleManager: Shutting down and abandoning module BlueprintGraph (650)
+[2019.11.20-07.51.05:867][600]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (648)
+[2019.11.20-07.51.05:867][600]LogModuleManager: Shutting down and abandoning module WorldBrowser (646)
+[2019.11.20-07.51.05:867][600]LogModuleManager: Shutting down and abandoning module AddContentDialog (644)
+[2019.11.20-07.51.05:874][600]LogModuleManager: Shutting down and abandoning module WidgetCarousel (643)
+[2019.11.20-07.51.05:874][600]LogModuleManager: Shutting down and abandoning module CollectionManager (640)
+[2019.11.20-07.51.05:874][600]LogModuleManager: Shutting down and abandoning module EditorWidgets (638)
+[2019.11.20-07.51.05:874][600]LogModuleManager: Shutting down and abandoning module SceneOutliner (636)
+[2019.11.20-07.51.05:875][600]LogModuleManager: Shutting down and abandoning module StatsViewer (634)
+[2019.11.20-07.51.05:875][600]LogModuleManager: Shutting down and abandoning module FoliageEdit (632)
+[2019.11.20-07.51.05:875][600]LogModuleManager: Shutting down and abandoning module LandscapeEditor (630)
+[2019.11.20-07.51.05:876][600]LogModuleManager: Shutting down and abandoning module MeshPaintMode (628)
+[2019.11.20-07.51.05:877][600]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (626)
+[2019.11.20-07.51.05:877][600]LogModuleManager: Shutting down and abandoning module ActorPickerMode (624)
+[2019.11.20-07.51.05:877][600]LogModuleManager: Shutting down and abandoning module GeometryMode (622)
+[2019.11.20-07.51.05:877][600]LogModuleManager: Shutting down and abandoning module TextureAlignMode (620)
+[2019.11.20-07.51.05:877][600]LogModuleManager: Shutting down and abandoning module BspMode (618)
+[2019.11.20-07.51.05:877][600]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (616)
+[2019.11.20-07.51.05:878][600]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (614)
+[2019.11.20-07.51.05:878][600]LogModuleManager: Shutting down and abandoning module AutomationWorker (612)
+[2019.11.20-07.51.05:878][600]LogModuleManager: Shutting down and abandoning module OculusMR (610)
+[2019.11.20-07.51.05:878][600]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (608)
+[2019.11.20-07.51.05:878][600]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (606)
+[2019.11.20-07.51.05:878][600]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (604)
+[2019.11.20-07.51.05:879][600]LogModuleManager: Shutting down and abandoning module PlacementMode (603)
+[2019.11.20-07.51.05:879][600]LogModuleManager: Shutting down and abandoning module MaterialEditor (602)
+[2019.11.20-07.51.05:879][600]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (598)
+[2019.11.20-07.51.05:879][600]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (596)
+[2019.11.20-07.51.05:879][600]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (594)
+[2019.11.20-07.51.05:879][600]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (592)
+[2019.11.20-07.51.05:879][600]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (590)
+[2019.11.20-07.51.05:879][600]LogModuleManager: Shutting down and abandoning module WebMMedia (588)
+[2019.11.20-07.51.05:879][600]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (586)
+[2019.11.20-07.51.05:880][600]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (584)
+[2019.11.20-07.51.05:880][600]LogModuleManager: Shutting down and abandoning module SequenceRecorder (583)
+[2019.11.20-07.51.05:880][600]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (580)
+[2019.11.20-07.51.05:880][600]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (578)
+[2019.11.20-07.51.05:880][600]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (576)
+[2019.11.20-07.51.05:880][600]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (574)
+[2019.11.20-07.51.05:881][600]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (572)
+[2019.11.20-07.51.05:881][600]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (570)
+[2019.11.20-07.51.05:881][600]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (568)
+[2019.11.20-07.51.05:881][600]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (566)
+[2019.11.20-07.51.05:881][600]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (564)
+[2019.11.20-07.51.05:881][600]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (562)
+[2019.11.20-07.51.05:881][600]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (560)
+[2019.11.20-07.51.05:881][600]LogModuleManager: Shutting down and abandoning module CharacterAI (558)
+[2019.11.20-07.51.05:881][600]LogModuleManager: Shutting down and abandoning module SmartSnapping (556)
+[2019.11.20-07.51.05:881][600]LogModuleManager: Shutting down and abandoning module SessionServices (554)
+[2019.11.20-07.51.05:881][600]LogModuleManager: Shutting down and abandoning module MeshPaint (552)
+[2019.11.20-07.51.05:881][600]LogModuleManager: Shutting down and abandoning module ViewportSnapping (550)
+[2019.11.20-07.51.05:882][600]LogModuleManager: Shutting down and abandoning module ViewportInteraction (548)
+[2019.11.20-07.51.05:882][600]LogModuleManager: Shutting down and abandoning module ClothPainter (546)
+[2019.11.20-07.51.05:882][600]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (545)
+[2019.11.20-07.51.05:882][600]LogModuleManager: Shutting down and abandoning module LogVisualizer (542)
+[2019.11.20-07.51.05:882][600]LogModuleManager: Shutting down and abandoning module IntroTutorials (540)
+[2019.11.20-07.51.05:883][600]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (539)
+[2019.11.20-07.51.05:883][600]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (536)
+[2019.11.20-07.51.05:883][600]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (534)
+[2019.11.20-07.51.05:883][600]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (532)
+[2019.11.20-07.51.05:883][600]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (530)
+[2019.11.20-07.51.05:884][600]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (529)
+[2019.11.20-07.51.06:469][600]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (526)
+[2019.11.20-07.51.06:470][600]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (524)
+[2019.11.20-07.51.06:470][600]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (522)
+[2019.11.20-07.51.06:470][600]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (520)
+[2019.11.20-07.51.06:470][600]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (518)
+[2019.11.20-07.51.06:470][600]LogModuleManager: Shutting down and abandoning module InputBindingEditor (516)
+[2019.11.20-07.51.06:470][600]LogModuleManager: Shutting down and abandoning module MergeActors (514)
+[2019.11.20-07.51.06:470][600]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (512)
+[2019.11.20-07.51.06:470][600]LogModuleManager: Shutting down and abandoning module LocalizationService (511)
+[2019.11.20-07.51.06:470][600]LogModuleManager: Shutting down and abandoning module HardwareTargeting (508)
+[2019.11.20-07.51.06:470][600]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (506)
+[2019.11.20-07.51.06:471][600]LogModuleManager: Shutting down and abandoning module UndoHistory (504)
+[2019.11.20-07.51.06:471][600]LogModuleManager: Shutting down and abandoning module XmlParser (502)
+[2019.11.20-07.51.06:471][600]LogModuleManager: Shutting down and abandoning module Blutility (500)
+[2019.11.20-07.51.06:471][600]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (498)
+[2019.11.20-07.51.06:471][600]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (497)
+[2019.11.20-07.51.06:472][600]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (494)
+[2019.11.20-07.51.06:472][600]LogModuleManager: Shutting down and abandoning module SettingsEditor (492)
+[2019.11.20-07.51.06:472][600]LogModuleManager: Shutting down and abandoning module ProjectLauncher (490)
+[2019.11.20-07.51.06:472][600]LogModuleManager: Shutting down and abandoning module SessionFrontend (488)
+[2019.11.20-07.51.06:473][600]LogModuleManager: Shutting down and abandoning module ProfilerClient (486)
+[2019.11.20-07.51.06:473][600]LogModuleManager: Shutting down and abandoning module DeviceManager (484)
+[2019.11.20-07.51.06:473][600]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (483)
+[2019.11.20-07.51.06:517][600]LogModuleManager: Shutting down and abandoning module AutomationController (480)
+[2019.11.20-07.51.06:517][600]LogModuleManager: Shutting down and abandoning module AutomationWindow (478)
+[2019.11.20-07.51.06:517][600]LogModuleManager: Shutting down and abandoning module Layers (476)
+[2019.11.20-07.51.06:518][600]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (474)
+[2019.11.20-07.51.06:518][600]LogModuleManager: Shutting down and abandoning module DetailCustomizations (472)
+[2019.11.20-07.51.06:518][600]LogModuleManager: Shutting down and abandoning module PackagesDialog (470)
+[2019.11.20-07.51.06:520][600]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (468)
+[2019.11.20-07.51.06:520][600]LogModuleManager: Shutting down and abandoning module Persona (466)
+[2019.11.20-07.51.06:521][600]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (465)
+[2019.11.20-07.51.06:521][600]LogModuleManager: Shutting down and abandoning module AnimGraph (463)
+[2019.11.20-07.51.06:521][600]LogModuleManager: Shutting down and abandoning module Kismet (460)
+[2019.11.20-07.51.06:575][600]LogModuleManager: Shutting down and abandoning module GraphEditor (458)
+[2019.11.20-07.51.06:575][600]LogModuleManager: Shutting down and abandoning module ClassViewer (456)
+[2019.11.20-07.51.06:579][600]LogModuleManager: Shutting down and abandoning module Toolbox (454)
+[2019.11.20-07.51.06:579][600]LogModuleManager: Shutting down and abandoning module ModuleUI (452)
+[2019.11.20-07.51.06:580][600]LogModuleManager: Shutting down and abandoning module MovieSceneTools (450)
+[2019.11.20-07.51.06:580][600]LogModuleManager: Shutting down and abandoning module OutputLog (448)
+[2019.11.20-07.51.06:580][600]LogModuleManager: Shutting down and abandoning module GammaUI (446)
+[2019.11.20-07.51.06:580][600]LogModuleManager: Shutting down and abandoning module Documentation (444)
+[2019.11.20-07.51.06:580][600]LogModuleManager: Shutting down and abandoning module LiveCoding (442)
+[2019.11.20-07.51.06:581][600]LogModuleManager: Shutting down and abandoning module LevelSequence (440)
+[2019.11.20-07.51.06:581][600]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (438)
+[2019.11.20-07.51.06:581][600]LogModuleManager: Shutting down and abandoning module MovieScene (436)
+[2019.11.20-07.51.06:581][600]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (434)
+[2019.11.20-07.51.06:581][600]LogModuleManager: Shutting down and abandoning module LauncherPlatform (432)
+[2019.11.20-07.51.06:581][600]LogModuleManager: Shutting down and abandoning module AnalyticsET (430)
+[2019.11.20-07.51.06:581][600]LogModuleManager: Shutting down and abandoning module PortalServices (428)
+[2019.11.20-07.51.06:581][600]LogModuleManager: Shutting down and abandoning module PortalRpc (426)
+[2019.11.20-07.51.06:582][600]LogModuleManager: Shutting down and abandoning module MessagingRpc (424)
+[2019.11.20-07.51.06:582][600]LogModuleManager: Shutting down and abandoning module AIModule (422)
+[2019.11.20-07.51.06:582][600]LogModuleManager: Shutting down and abandoning module GameplayDebugger (421)
+[2019.11.20-07.51.06:582][600]LogModuleManager: Shutting down and abandoning module AITestSuite (419)
+[2019.11.20-07.51.06:582][600]LogModuleManager: Shutting down and abandoning module NavigationSystem (417)
+[2019.11.20-07.51.06:582][600]LogModuleManager: Shutting down and abandoning module DesktopPlatform (414)
+[2019.11.20-07.51.06:582][600]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (412)
+[2019.11.20-07.51.06:597][600]LogModuleManager: Shutting down and abandoning module ProfilerService (410)
+[2019.11.20-07.51.06:779][600]LogModuleManager: Shutting down and abandoning module TaskGraph (408)
+[2019.11.20-07.51.06:779][600]LogModuleManager: Shutting down and abandoning module SteamVRController (406)
+[2019.11.20-07.51.06:780][600]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (404)
+[2019.11.20-07.51.06:780][600]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (402)
+[2019.11.20-07.51.06:780][600]LogModuleManager: Shutting down and abandoning module OculusEditor (400)
+[2019.11.20-07.51.06:781][600]LogModuleManager: Shutting down and abandoning module OculusInput (398)
+[2019.11.20-07.51.06:782][600]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (396)
+[2019.11.20-07.51.06:782][600]LogModuleManager: Shutting down and abandoning module EditableMesh (394)
+[2019.11.20-07.51.06:782][600]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (392)
+[2019.11.20-07.51.06:783][600]LogModuleManager: Shutting down and abandoning module CableComponent (390)
+[2019.11.20-07.51.06:783][600]LogModuleManager: Shutting down and abandoning module AudioCapture (388)
+[2019.11.20-07.51.06:783][600]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (386)
+[2019.11.20-07.51.06:785][600]LogModuleManager: Shutting down and abandoning module AndroidPermission (384)
+[2019.11.20-07.51.06:786][600]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (382)
+[2019.11.20-07.51.06:788][600]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (380)
+[2019.11.20-07.51.06:789][600]LogModuleManager: Shutting down and abandoning module MediaCompositing (378)
+[2019.11.20-07.51.06:790][600]LogModuleManager: Shutting down and abandoning module LinearTimecode (376)
+[2019.11.20-07.51.06:796][600]LogModuleManager: Shutting down and abandoning module ImgMedia (374)
+[2019.11.20-07.51.06:796][600]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (372)
+[2019.11.20-07.51.06:796][600]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (370)
+[2019.11.20-07.51.06:798][600]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (368)
+[2019.11.20-07.51.06:798][600]LogModuleManager: Shutting down and abandoning module HTML5Networking (366)
+[2019.11.20-07.51.06:798][600]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (364)
+[2019.11.20-07.51.06:798][600]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (362)
+[2019.11.20-07.51.06:798][600]LogModuleManager: Shutting down and abandoning module BackChannel (360)
+[2019.11.20-07.51.06:798][600]LogModuleManager: Shutting down and abandoning module AppleVision (358)
+[2019.11.20-07.51.06:803][600]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (356)
+[2019.11.20-07.51.06:804][600]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2019.11.20-07.51.06:804][600]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2019.11.20-07.51.06:804][600]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2019.11.20-07.51.06:804][600]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2019.11.20-07.51.06:805][600]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2019.11.20-07.51.06:805][600]LogModuleManager: Shutting down and abandoning module VariantManagerContent (344)
+[2019.11.20-07.51.06:805][600]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2019.11.20-07.51.06:805][600]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2019.11.20-07.51.06:805][600]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2019.11.20-07.51.06:806][600]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2019.11.20-07.51.06:807][600]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (334)
+[2019.11.20-07.51.06:807][600]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (332)
+[2019.11.20-07.51.06:808][600]LogModuleManager: Shutting down and abandoning module CryptoKeys (330)
+[2019.11.20-07.51.06:808][600]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (328)
+[2019.11.20-07.51.06:808][600]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (326)
+[2019.11.20-07.51.06:808][600]LogModuleManager: Shutting down and abandoning module UObjectPlugin (324)
+[2019.11.20-07.51.06:808][600]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (322)
+[2019.11.20-07.51.06:810][600]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (320)
+[2019.11.20-07.51.06:812][600]LogModuleManager: Shutting down and abandoning module GitSourceControl (318)
+[2019.11.20-07.51.06:812][600]LogModuleManager: Shutting down and abandoning module SourceControl (317)
+[2019.11.20-07.51.06:813][600]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (314)
+[2019.11.20-07.51.06:813][600]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (312)
+[2019.11.20-07.51.06:813][600]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (310)
+[2019.11.20-07.51.06:814][600]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (308)
+[2019.11.20-07.51.06:814][600]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (306)
+[2019.11.20-07.51.06:814][600]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (304)
+[2019.11.20-07.51.06:814][600]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (302)
+[2019.11.20-07.51.06:814][600]LogModuleManager: Shutting down and abandoning module Paper2DEditor (300)
+[2019.11.20-07.51.06:815][600]LogModuleManager: Shutting down and abandoning module SignificanceManager (298)
+[2019.11.20-07.51.06:815][600]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (296)
+[2019.11.20-07.51.06:815][600]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (294)
+[2019.11.20-07.51.06:815][600]LogModuleManager: Shutting down and abandoning module PhysXVehicles (292)
+[2019.11.20-07.51.06:815][600]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2019.11.20-07.51.06:815][600]LogModuleManager: Shutting down and abandoning module ApexDestructionEditor (288)
+[2019.11.20-07.51.06:816][600]LogModuleManager: Shutting down and abandoning module ApexDestruction (286)
+[2019.11.20-07.51.06:816][600]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.11.20-07.51.06:816][600]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.11.20-07.51.06:918][600]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.11.20-07.51.07:021][600]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (278)
+[2019.11.20-07.51.07:021][600]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (276)
+[2019.11.20-07.51.07:022][600]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (274)
+[2019.11.20-07.51.07:023][600]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (272)
+[2019.11.20-07.51.07:023][600]LogModuleManager: Shutting down and abandoning module MagicLeapController (270)
+[2019.11.20-07.51.07:024][600]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.11.20-07.51.07:025][600]LogModuleManager: Shutting down and abandoning module MagicLeapAR (268)
+[2019.11.20-07.51.07:025][600]LogModuleManager: Shutting down and abandoning module AugmentedReality (267)
+[2019.11.20-07.51.07:025][600]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (264)
+[2019.11.20-07.51.07:025][600]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (262)
+[2019.11.20-07.51.07:026][600]LogModuleManager: Shutting down and abandoning module FacialAnimation (260)
+[2019.11.20-07.51.07:029][600]LogModuleManager: Shutting down and abandoning module DataValidation (258)
+[2019.11.20-07.51.07:029][600]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (256)
+[2019.11.20-07.51.07:030][600]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2019.11.20-07.51.07:073][600]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2019.11.20-07.51.07:074][600]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (252)
+[2019.11.20-07.51.07:078][600]LogModuleManager: Shutting down and abandoning module MainFrame (250)
+[2019.11.20-07.51.07:097][600]LogModuleManager: Shutting down and abandoning module HotReload (249)
+[2019.11.20-07.51.07:108][600]LogModuleManager: Shutting down and abandoning module ContentBrowser (245)
+[2019.11.20-07.51.07:132][600]LogModuleManager: Shutting down and abandoning module TreeMap (243)
+[2019.11.20-07.51.07:133][600]LogModuleManager: Shutting down and abandoning module AnimationSharing (240)
+[2019.11.20-07.51.07:133][600]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2019.11.20-07.51.07:133][600]LogModuleManager: Shutting down and abandoning module AISupportModule (236)
+[2019.11.20-07.51.07:133][600]LogModuleManager: Shutting down and abandoning module Paper2D (234)
+[2019.11.20-07.51.07:134][600]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (232)
+[2019.11.20-07.51.07:134][600]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (230)
+[2019.11.20-07.51.07:135][600]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2019.11.20-07.51.07:137][600]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2019.11.20-07.51.07:137][600]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2019.11.20-07.51.07:137][600]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2019.11.20-07.51.07:137][600]LogModuleManager: Shutting down and abandoning module Overlay (220)
+[2019.11.20-07.51.07:138][600]LogModuleManager: Shutting down and abandoning module OverlayEditor (219)
+[2019.11.20-07.51.07:138][600]LogModuleManager: Shutting down and abandoning module VREditor (216)
+[2019.11.20-07.51.07:138][600]LogModuleManager: Shutting down and abandoning module StringTableEditor (214)
+[2019.11.20-07.51.07:138][600]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (212)
+[2019.11.20-07.51.07:138][600]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (210)
+[2019.11.20-07.51.07:138][600]LogModuleManager: Shutting down and abandoning module FunctionalTesting (208)
+[2019.11.20-07.51.07:138][600]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (206)
+[2019.11.20-07.51.07:138][600]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (205)
+[2019.11.20-07.51.07:139][600]LogModuleManager: Shutting down and abandoning module UMG (202)
+[2019.11.20-07.51.07:139][600]LogModuleManager: Shutting down and abandoning module UMGEditor (201)
+[2019.11.20-07.51.07:139][600]LogModuleManager: Shutting down and abandoning module Sequencer (200)
+[2019.11.20-07.51.07:140][600]LogModuleManager: Shutting down and abandoning module MessageLog (197)
+[2019.11.20-07.51.07:140][600]LogModuleManager: Shutting down and abandoning module SlateReflector (192)
+[2019.11.20-07.51.07:141][600]LogModuleManager: Shutting down and abandoning module Slate (190)
+[2019.11.20-07.51.07:141][600]LogModuleManager: Shutting down and abandoning module EditorStyle (188)
+[2019.11.20-07.51.07:165][600]LogModuleManager: Shutting down and abandoning module UnrealEd (186)
+[2019.11.20-07.51.07:165][600]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2019.11.20-07.51.07:165][600]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2019.11.20-07.51.07:165][600]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2019.11.20-07.51.07:165][600]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2019.11.20-07.51.07:166][600]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2019.11.20-07.51.07:167][600]LogModuleManager: Shutting down and abandoning module Core (174)
+[2019.11.20-07.51.07:167][600]LogModuleManager: Shutting down and abandoning module KismetCompiler (172)
+[2019.11.20-07.51.07:167][600]LogModuleManager: Shutting down and abandoning module MeshUtilities (170)
+[2019.11.20-07.51.07:167][600]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (169)
+[2019.11.20-07.51.07:171][600]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (168)
+[2019.11.20-07.51.07:179][600]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (167)
+[2019.11.20-07.51.07:180][600]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (165)
+[2019.11.20-07.51.07:180][600]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (163)
+[2019.11.20-07.51.07:180][600]LogModuleManager: Shutting down and abandoning module MaterialBaking (159)
+[2019.11.20-07.51.07:180][600]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2019.11.20-07.51.07:234][600]LogDerivedDataCache: Shutdown
+[2019.11.20-07.51.07:235][600]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2019.11.20-07.51.07:236][600]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2019.11.20-07.51.07:236][600]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2019.11.20-07.51.07:238][600]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2019.11.20-07.51.07:238][600]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2019.11.20-07.51.07:239][600]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2019.11.20-07.51.07:239][600]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2019.11.20-07.51.07:239][600]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2019.11.20-07.51.07:239][600]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2019.11.20-07.51.07:240][600]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2019.11.20-07.51.07:240][600]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2019.11.20-07.51.07:247][600]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2019.11.20-07.51.07:247][600]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2019.11.20-07.51.07:247][600]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2019.11.20-07.51.07:247][600]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2019.11.20-07.51.07:247][600]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2019.11.20-07.51.07:248][600]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2019.11.20-07.51.07:248][600]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (119)
+[2019.11.20-07.51.07:296][600]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (117)
+[2019.11.20-07.51.07:296][600]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (115)
+[2019.11.20-07.51.07:296][600]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (113)
+[2019.11.20-07.51.07:296][600]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (111)
+[2019.11.20-07.51.07:296][600]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (109)
+[2019.11.20-07.51.07:308][600]LogModuleManager: Shutting down and abandoning module Messaging (107)
+[2019.11.20-07.51.07:308][600]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (105)
+[2019.11.20-07.51.07:348][600]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (103)
+[2019.11.20-07.51.07:349][600]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (101)
+[2019.11.20-07.51.07:547][600]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (99)
+[2019.11.20-07.51.07:547][600]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (97)
+[2019.11.20-07.51.07:547][600]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (95)
+[2019.11.20-07.51.07:547][600]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (93)
+[2019.11.20-07.51.07:547][600]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (91)
+[2019.11.20-07.51.07:548][600]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (89)
+[2019.11.20-07.51.07:548][600]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (87)
+[2019.11.20-07.51.07:548][600]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (85)
+[2019.11.20-07.51.07:548][600]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (83)
+[2019.11.20-07.51.07:548][600]LogModuleManager: Shutting down and abandoning module InputCore (80)
+[2019.11.20-07.51.07:548][600]LogModuleManager: Shutting down and abandoning module Settings (78)
+[2019.11.20-07.51.07:548][600]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (76)
+[2019.11.20-07.51.07:551][600]LogModuleManager: Shutting down and abandoning module PhysXCooking (74)
+[2019.11.20-07.51.07:551][600]LogModuleManager: Shutting down and abandoning module SteamVR (72)
+[2019.11.20-07.51.07:551][600]LogHMD: Freeing OpenVRDLLHandle.
+[2019.11.20-07.51.07:551][600]LogModuleManager: Shutting down and abandoning module OculusHMD (70)
+[2019.11.20-07.51.07:551][600]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (68)
+[2019.11.20-07.51.07:551][600]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (66)
+[2019.11.20-07.51.07:551][600]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2019.11.20-07.51.07:552][600]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (60)
+[2019.11.20-07.51.07:557][600]LogModuleManager: Shutting down and abandoning module XMPP (55)
+[2019.11.20-07.51.07:558][600]LogModuleManager: Shutting down and abandoning module WebSockets (54)
+[2019.11.20-07.51.07:576][600]LogModuleManager: Shutting down and abandoning module HTTP (51)
+[2019.11.20-07.51.07:576][600]LogHttp: Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2019.11.20-07.51.07:576][600]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9C9E8A14-42FC-2154-84FB-38A681E540B4%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=00819556409e18e3f6717ab01550a1c3%7C4189fef67e57406088c8c78838cc1a4f%7Cb91a0d1d-f291-41b7-8881-48a40c55c360&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.11.20-07.51.07:576][600]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9C9E8A14-42FC-2154-84FB-38A681E540B4%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=00819556409e18e3f6717ab01550a1c3%7C4189fef67e57406088c8c78838cc1a4f%7Cb91a0d1d-f291-41b7-8881-48a40c55c360&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.11.20-07.51.07:608][600]LogModuleManager: Shutting down and abandoning module SSL (50)
+[2019.11.20-07.51.07:631][600]LogModuleManager: Shutting down and abandoning module WmfMedia (46)
+[2019.11.20-07.51.07:638][600]LogModuleManager: Shutting down and abandoning module Media (45)
+[2019.11.20-07.51.07:646][600]LogModuleManager: Shutting down and abandoning module MagicLeap (42)
+[2019.11.20-07.51.07:646][600]LogModuleManager: Shutting down and abandoning module DatasmithContent (40)
+[2019.11.20-07.51.07:647][600]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2019.11.20-07.51.07:647][600]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2019.11.20-07.51.07:648][600]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2019.11.20-07.51.07:649][600]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2019.11.20-07.51.07:649][600]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2019.11.20-07.51.07:649][600]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2019.11.20-07.51.07:649][600]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2019.11.20-07.51.07:654][600]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2019.11.20-07.51.07:654][600]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2019.11.20-07.51.07:654][600]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2019.11.20-07.51.07:654][600]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2019.11.20-07.51.07:654][600]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2019.11.20-07.51.07:654][600]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2019.11.20-07.51.07:655][600]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2019.11.20-07.51.07:655][600]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2019.11.20-07.51.07:655][600]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2019.11.20-07.51.07:655][600]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2019.11.20-07.51.07:655][600]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2019.11.20-07.51.07:655][600]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2019.11.20-07.51.07:683][600]LogExit: Exiting.
+[2019.11.20-07.51.07:709][600]Log file closed, 11/19/19 23:51:07
