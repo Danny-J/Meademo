@@ -39,8 +39,6 @@ private:
   typedef std::pair<weaponStage::triggerDirection,
     weaponComponent::WEAP_COMPS_ENUMS> setCompInfo;
   std::queue<setCompInfo> setCompQueue;
-public:
-  unsigned roundCyclesFired = 0;
 
 public:
   weaponComponent* getWeapComp(weaponComponent::WEAP_COMPS_ENUMS key)

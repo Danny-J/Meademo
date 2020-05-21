@@ -2,10 +2,11 @@
 #include "weapon_component_instances.h"
 #include "weapon_system.h"
 
+//TODO: Create data structure that handles logic for container
 bool weaponSystem::setComponent(weaponStage::triggerDirection condition,
   weaponComponent::WEAP_COMPS_ENUMS key)
 {
-  bool countCycle = false;
+  //bool countCycle = false;
 
   //DEBUG
   {
@@ -39,16 +40,16 @@ bool weaponSystem::setComponent(weaponStage::triggerDirection condition,
 
     if (trigDir == weaponStage::TD_READY)
     {
-      //TODO: Move this logic to within weapComp_Action
-        //NOTE: Goal to distinguish between each completed cycle in auto fire
-      if (countCycle && wce == weaponComponent::ACTION)
-      {
-        std::cout << "Completed Round Cycle: "
-          << ++roundCyclesFired << std::endl;
-      }
+      ////TODO: Move this logic to within weapComp_Action
+      //  //NOTE: Goal to distinguish between each completed cycle in auto fire
+      //if (countCycle && wce == weaponComponent::ACTION)
+      //{
+      //  std::cout << "Completed Round Cycle: "
+      //    << ++roundCyclesFired << std::endl;
+      //}
 
-      //REVIEW: If weapCompenent exists
       if (weapComps[wce] != nullptr)
+      {
         if (readyComponent(wce) == false)
         {
           while (setCompQueue.empty() == false)
@@ -58,23 +59,24 @@ bool weaponSystem::setComponent(weaponStage::triggerDirection condition,
 
           return false;
         }
+      }
     }
     else if (trigDir == weaponStage::TD_ACTIVE)
     {
       //NOTE: Goal to distinguish between each completed cycle in auto fire
-      if (wce == weaponComponent::ACTION)
-      {
-        if (countCycle == false)
-        {
-          roundCyclesFired = 0;
-          countCycle = true;
-        }
-        std::cout << "\nFiring Round Cycle: "
-          << (roundCyclesFired + 1) << std::endl;
-      }
+      //if (wce == weaponComponent::ACTION)
+      //{
+      //  if (countCycle == false)
+      //  {
+      //    roundCyclesFired = 0;
+      //    countCycle = true;
+      //  }
+      //  std::cout << "\nFiring Round Cycle: "
+      //    << (roundCyclesFired + 1) << std::endl;
+      //}
 
-      //REVIEW: If weapCompenent exists
       if (weapComps[wce] != nullptr)
+      {
         if (activateComponent(wce) == false)
         {
           while (setCompQueue.empty() == false)
@@ -84,6 +86,7 @@ bool weaponSystem::setComponent(weaponStage::triggerDirection condition,
 
           return false;
         }
+      }
     }
 
     setCompQueue.pop();

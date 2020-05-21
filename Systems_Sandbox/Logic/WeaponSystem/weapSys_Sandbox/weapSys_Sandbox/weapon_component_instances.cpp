@@ -1,6 +1,34 @@
 #include "weapon_system.h"
 #include "weapon_component_instances.h"
 
+bool weapComp_Action::activateComponent()
+{
+  if(parent->getWeapComp(weaponComponent::ACTION)->IsReady())
+  {
+    roundCyclesFired = 0;
+  }
+
+  std::cout << "\nFiring Round Cycle: "
+    << (roundCyclesFired + 1) << std::endl;
+
+  return weaponComponent::activateComponent();
+}
+
+bool weapComp_Action::readyComponent()
+{
+  bool countCycle = false;
+
+  //TODO: Move this logic to within weapComp_Action
+    //NOTE: Goal to distinguish between each completed cycle in auto fire
+  if (countCycle)
+  {
+    std::cout << "Completed Round Cycle: "
+      << ++roundCyclesFired << std::endl;
+  }
+
+  return weaponComponent::readyComponent();
+}
+
 bool weapComp_Round::activateRound()
 {
   bool roundActivated = false;

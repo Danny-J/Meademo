@@ -180,7 +180,7 @@ struct weaponComponent
     }
   }
 
-private:
+protected:
   bool activateComponent();
   bool readyComponent();
 };

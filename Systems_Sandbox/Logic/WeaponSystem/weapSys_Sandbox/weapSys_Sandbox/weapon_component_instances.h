@@ -32,6 +32,11 @@ struct weapComp_Action : public weaponComponent
 
   unsigned remainingRoundsPerPull; //once reached 0, end sequence
 
+  bool activateComponent();
+  bool readyComponent();
+
+  unsigned roundCyclesFired = 0;
+
   void debug()
   {
     weaponComponent::debug();
