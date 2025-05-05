@@ -1,0 +1,14 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/UnrealProjects/Systems_Sandbox/Mechanics_Sandbox/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"D:/UnrealProjects/Systems_Sandbox/Mechanics_Sandbox/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset",
+				"D:/UnrealProjects/Systems_Sandbox/Mechanics_Sandbox/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap"
+			]
+		}
+	]
+}
