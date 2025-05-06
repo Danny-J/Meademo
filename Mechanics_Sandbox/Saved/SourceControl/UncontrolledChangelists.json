@@ -7,7 +7,28 @@
 			"files": [
 				"D:/UnrealProjects/Systems_Sandbox/Mechanics_Sandbox/Content/StarterContent/Architecture/Floor_400x400.uasset",
 				"D:/UnrealProjects/Systems_Sandbox/Mechanics_Sandbox/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset",
-				"D:/UnrealProjects/Systems_Sandbox/Mechanics_Sandbox/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap"
+				"D:/UnrealProjects/Systems_Sandbox/Mechanics_Sandbox/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap",
+				"D:/UnrealProjects/Systems_Sandbox/Mechanics_Sandbox/Content/FirstPersonBP/FirstPersonOverview.uasset",
+				"D:/UnrealProjects/Systems_Sandbox/Mechanics_Sandbox/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset",
+				"D:/UnrealProjects/Systems_Sandbox/Mechanics_Sandbox/Content/Kits/Gun/Firearm/Firearm.uasset",
+				"D:/UnrealProjects/Systems_Sandbox/Mechanics_Sandbox/Content/Maps/Camera_Kit_BuiltData.uasset",
+				"D:/UnrealProjects/Systems_Sandbox/Mechanics_Sandbox/Content/Maps/Camera_Kit.umap",
+				"D:/UnrealProjects/Systems_Sandbox/Mechanics_Sandbox/Content/Maps/Door_Kit_BuiltData.uasset",
+				"D:/UnrealProjects/Systems_Sandbox/Mechanics_Sandbox/Content/Maps/Door_Kit.umap",
+				"D:/UnrealProjects/Systems_Sandbox/Mechanics_Sandbox/Content/Maps/Explosive_Kit_BuiltData.uasset",
+				"D:/UnrealProjects/Systems_Sandbox/Mechanics_Sandbox/Content/Maps/Explosive_Kit.umap",
+				"D:/UnrealProjects/Systems_Sandbox/Mechanics_Sandbox/Content/Maps/Fire_Kit_BuiltData.uasset",
+				"D:/UnrealProjects/Systems_Sandbox/Mechanics_Sandbox/Content/Maps/Fire_Kit.umap",
+				"D:/UnrealProjects/Systems_Sandbox/Mechanics_Sandbox/Content/Maps/Laser_Kit_BuiltData.uasset",
+				"D:/UnrealProjects/Systems_Sandbox/Mechanics_Sandbox/Content/Maps/Laser_Kit.umap",
+				"D:/UnrealProjects/Systems_Sandbox/Mechanics_Sandbox/Content/Maps/Portal_Kit_BuiltData.uasset",
+				"D:/UnrealProjects/Systems_Sandbox/Mechanics_Sandbox/Content/Maps/Portal_Kit.umap",
+				"D:/UnrealProjects/Systems_Sandbox/Mechanics_Sandbox/Content/Maps/Teleport_Kit_BuiltData.uasset",
+				"D:/UnrealProjects/Systems_Sandbox/Mechanics_Sandbox/Content/Maps/Teleport_Kit.umap",
+				"D:/UnrealProjects/Systems_Sandbox/Mechanics_Sandbox/Content/Maps/Turret_Kit_BuiltData.uasset",
+				"D:/UnrealProjects/Systems_Sandbox/Mechanics_Sandbox/Content/Maps/Turret_Kit.umap",
+				"D:/UnrealProjects/Systems_Sandbox/Mechanics_Sandbox/Content/Kits/Gun/Firearm/AssaultRifle.uasset",
+				"D:/UnrealProjects/Systems_Sandbox/Mechanics_Sandbox/Content/Kits/ExplosivePB/StickyGrenade.uasset"
 			]
 		}
 	]
