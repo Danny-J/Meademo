@@ -1,4 +1,4 @@
-# Visual Studio 2015 user specific files
+# Visual Studio user specific files
 .vs/
 
 # Compiled Object files
@@ -74,5 +74,3 @@ Build/*/**
 
 # Cache files for the editor to use
 **/DerivedDataCache/*
-
-#NOTE: Any instance of 'Systems_Sandbox/' was added manually
