@@ -1,1 +1,0 @@
-//I am hold the logic for weapon component behavior; what to do when activated/readied
