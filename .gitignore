@@ -37,6 +37,7 @@ Plugins/*/Saved/
 *.so
 *.dylib
 *.java
+*_BuiltData.uasset
 
 # Packaging
 FileOpenOrder/
