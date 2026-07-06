@@ -4,6 +4,7 @@ DerivedDataCache/
 Intermediate/
 Saved/
 Logs/
+Build/
 
 # Plugin generated files
 Plugins/*/Binaries/
